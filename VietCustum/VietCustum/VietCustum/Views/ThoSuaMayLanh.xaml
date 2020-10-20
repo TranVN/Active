@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VietCustum.Views.ThoSuaMayLanh"
+              Title="Thợ Sửa Máy Lạnh">
+    <StackLayout HorizontalOptions="Center" Padding="10">
+        <ScrollView  VerticalOptions="StartAndExpand">
+            <StackLayout>
+                <Label Text="Thợ Sửa Máy Lạnh"
+                   FontSize="Title"
+                   TextColor="red"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start"
+                   
+                />
+                <Label Text=" – Thợ sửa máy lạnh tại nhà – Dịch vụ sửa chữa điện lạnh giá rẻ Thợ Việt. Chuyên cung cấp các dịch vụ liên quan đến điện lạnh: vệ sinh máy lạnh, máy điều hòa, sửa máy lạnh máy điều hòa, sửa lò vi sóng, sửa máy rửa chén, máy lọc nước…"/>
+                <Label Text=" – Thi công lắp đặt, vệ sinh, xử lý sự cố xảy ra trên hệ thống VRV, VRF, hệ thống HVAC, hệ thống ống gió... của tòa nhà, nhà máy..."/>
+                <Label Text=" – Với đội ngũ chuyên nghiệp Thợ Việt sẽ đáp ứng mọi nhu cầu của Quý Khách."/>
+                <Label Text=" Để nhận được thông tin chi tiết về giá cũng như mọi thông tin liên quan Quý Khách vui lòng liên hệ hoặc để lại thông tin. Thợ Việt sẽ liên hệ lại sớm nhất để trao đổi với Quý Khách."/>
+                <Button Text="HotLine: 0903 532 938"
+                        
+                       TextColor="White" 
+                        BackgroundColor="#446ca2"
+                        
+                       FontAttributes="Bold"
+                        WidthRequest="150"
+                        CornerRadius="20"
+                        Margin="60,5,60,5"
+                        VerticalOptions="CenterAndExpand"
+                        Clicked="ButtonFabcon_Clicked"
+                        
+                        />
+                <Label Text="Tham Khảo Bảng giá nhân công – vật tư điện lạnh.(Giá tham khảo)"
+                       FontSize="Medium"
+                       TextColor="Black"
+                      
+                      HorizontalOptions="Center"
+                       />
+
+                <Label Text="( Bảng giá trên là giá tham khảo tùy vào thực tế thi công thợ sẽ báo trước chi phí cho Quý Khách)"
+                       TextColor="Black"
+                       FontAttributes="Italic"
+                       />
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+
+                    </Grid.RowDefinitions>
+                    <Label Grid.Column="0"
+                           Grid.Row="0"
+                           Text ="Công Việc"
+                           HorizontalOptions="Fill"
+                           BackgroundColor="Yellow" 
+                           HorizontalTextAlignment="Center"
+                           TextColor="red"
+                           />
+                    <Label Grid.Column="1"
+                           Grid.Row="0"
+                           Text ="Giá"
+                           HorizontalOptions="Fill"
+                           BackgroundColor="Yellow"
+                           HorizontalTextAlignment="Center"
+                           TextColor="red"
+
+                           />
+                    <Label Grid.Row="1"
+                           Grid.ColumnSpan="2"
+                           Text ="A. SỬA CHỮA MÁY LẠNH"
+                           HorizontalOptions="Start"
+                            TextColor="Black"
+                           HorizontalTextAlignment="Start"
+                           Margin="1"/>
+                    <Label Grid.Row="2"
+                           Text ="Thay tụ chạy block máy nén máy 1-1,5hp"
+                           HorizontalOptions="Fill"
+                           HorizontalTextAlignment="Start"
+                           Margin="1"/>
+                    <Label Grid.Row="2"
+                           Grid.Column="1"
+                           Text ="350.000đ"
+                           HorizontalOptions="Fill" 
+                           HorizontalTextAlignment="Start" 
+                           Margin="1"/>
+                    <Label Grid.Row="3"
+                           
+                           Text ="Thay tụ chạy block máy nén máy 2-2,5hp"
+                           HorizontalOptions="Fill"
+                           HorizontalTextAlignment="Start"
+                           Margin="1"/>
+                    <Label Grid.Row="3"
+                           Grid.Column="1"
+                           Text ="450.000đ - 550.000đ"
+                           HorizontalOptions="Fill"
+                           
+                           HorizontalTextAlignment="Start" 
+                           Margin="1"/>
+                    <Label Grid.Row="4"
+                                    
+                           Text ="Thay cánh quạt dàn nóng"
+                           HorizontalOptions="Fill"
+                           HorizontalTextAlignment="Start"
+                           Margin="1"/>
+                    <Label Grid.Row="4"
+                           Grid.Column="1"
+                           Text ="300.000đ"
+                           HorizontalOptions="Fill"    
+                           
+                           HorizontalTextAlignment="Start" 
+                           Margin="1"/>
+                    <Label Grid.Row="5"
+                           
+                           Text =" Thay quạt mô tơ dàn lanh (AC)"
+                           HorizontalOptions="Fill"
+                           HorizontalTextAlignment="Start"
+                           Margin="1"/>
+                    <Label Grid.Row="5"
+                           Grid.Column="1"
+                           Text ="500.000đ"
+                           HorizontalOptions="Fill" 
+                           HorizontalTextAlignment="Start" 
+                           Margin="1"/>
+                    <Label Grid.Row="6"
+                           Grid.ColumnSpan="2"
+                           TextColor="Black"
+                           Text ="B. THAY BLOCK, MÁY NÉN"
+                           HorizontalOptions="Start" 
+                           HorizontalTextAlignment="Start" 
+                           Margin="1"/>
+                    <Label Grid.Row="7"
+                           
+                           Text ="Thay block máy lạnh cũ 1.0 hp - BH 06 tháng"
+                           HorizontalOptions="Fill"
+                           HorizontalTextAlignment="Start"
+                           Margin="1"/>
+                    <Label Grid.Row="7"
+                           Grid.Column="1"
+                           Text ="Từ 1,8 triệu - 2,2 triệu (Tùy theo hãng)"
+                           HorizontalOptions="Fill" 
+                           HorizontalTextAlignment="Start" 
+                           Margin="1"/>
+                </Grid>
+
+                <Label Text="Nếu máy lạnh gặp những hư hỏng thường gặp sau:"
+                       FontSize="Large"
+                       TextColor="Black"
+                      HorizontalOptions="Center"
+                       />
+                <Label Text="+ Máy nén chạy và dừng liên tục do quá tải."/>
+                <Label Text="+ Máy chạy và ngưng liền."/>
+                <Label Text="+ Quạt dàn nóng, lạnh không chạy."/>
+                <Label Text="+ Máy nén không chạy hay chạy ồn."/>
+                <Label Text="+ Máy lạnh quá lạnh hoặc Máy lạnh không lạnh."/>
+                <Label Text="+ Ấp suất hút cao hoặc thấp."/>
+                <Label Text="+ Máy chạy liên tục nhưng không lạnh."/>
+                <Label Text="+ Hư block, lạnh xì gas do lắp đầu mới không đúng kỹ thuật."/>
+                <Label Text="Hãy liên hệ ngay dịch vụ sửa điện lạnh tại nhà của Thợ Việt!"
+                       TextColor="Red"
+                       FontAttributes="Italic"
+                       />
+
+                <Grid HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0"  Source="https://thoviet.com.vn/wp-content/uploads/2018/09/tho-sua-dien-lanh-tai-nha-quan-9.jpg"/>
+                    <Image Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_thao-lap-may-lanh-tai-quan-2.jpg"/>
+                    <Image Grid.Column="2" Source="https://thoviet.com.vn/wp-content/uploads/2017/04/Tho-sua-may-lanh-tai-nha.jpg"/>
+
+
+                </Grid>
+                <Label Text="Thợ Việt với quy trình sửa máy lạnh chuyên nghiệp:"
+                       FontSize="Large"
+                       TextColor="Black"
+                      HorizontalOptions="Center"
+                       />
+                <Label Text="+ Tiếp nhận thông tin khách hàng từ tổng đài"/>
+                <Label Text="+ Phân công kỹ thuật viên tới kiểm tra máy lạnh"/>
+                <Label Text="+Chuẩn đoán nguyên nhân hư hỏng và báo giá sửa chữa"/>
+                <Label Text="+ Tiến hành sửa chữa và khắc phục hư hỏng nến khách hàng đồng ý"/>
+                <Label Text="+ Kiểm tra vận hành trước khi bàn giao máy lạnh cho khách hàng"/>
+                <Label Text="+ Viết phiếu thanh toán và bảo trì"/>
+
+                <Label Text="QUÝ KHÁCH VUI LÒNG LIÊN HỆ TRỰC TIẾP VĂN PHÒNG CÔNG TY QUA HOTLINE : 0903.532.938"
+                       FontAttributes="Italic"
+                       TextColor="Black"
+                       />
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VietCustum.Views.ThoMoc"
+              Title="Thợ Mộc">
+    <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="10">
+        <ScrollView HorizontalOptions="FillAndExpand">
+            <StackLayout>
+                <Label Text="Thợ Sơn Sửa Đồ Gỗ"
+                   FontSize="Title"
+                   TextColor="red"
+                   FontAttributes="Bold"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Start"/>
+                <Label Text="   Là một trong những đơn vị dẫn đầu về lĩnh vực sơn sửa đồ gỗ nội thất tại nhà. Chúng tôi luôn lấy tiêu chuẩn chất lượng cao để cung cấp dịch vụ khách hàng. Bằng việc sử dụng các công nghệ, máy móc hiện đại."
+                       />
+                <Label Text="   Cộng thêm đội ngũ thợ sửa chữa chuyên nghiệp, có tay nghề cao. Thợ Việt đã mang đến những giá trị thật sự về thời gian, chất lượng và giá cả."/>
+                <Label Text="   Cho dù mục đích của bạn là sửa chữa, khôi phục hay thay đổi màu sắc đồ gỗ đề phù hợp với không gian sống. Đội ngũ nhân viên chúng tôi đều đáp một cách tốt nhất."/>
+                <Image Source=" https://thoviet.com.vn/wp-content/uploads/2019/01/tho-moc-son-sua-do-go-68.jpg" 
+                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200"/>
+                <Frame BackgroundColor="White" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label TextColor="#0000ff" Text="– Báo giá sơn sửa đồ gỗ nhanh chóng cho Khách hàng qua zalo: 0903532938, Quý Khách chỉ cần chụp ảnh đồ gỗ cần sơn sửa, đóng mới, cho thông tin thêm kích thước, màu sắc…số điện thoại của Quý Khách hàng để nhận bảng báo giá sơn đồ gỗ, sửa chữa đồ gỗ nhanh chóng."/>
+                        <Label TextColor="#0000ff" Text="– Thợ Việt cam kết các thợ mộc công ty kinh nghiệm trên 10 năm trong nghề mộc, thợ đã được Công ty quản lý hồ sơ lý lịch, giúp Khách hàng yên tâm, đảm bảo an toàn cho gia đình."/>
+                        <Label TextColor="#0000ff" Text="– Thợ Việt có xuất hoá đơn đỏ, nhận thanh toán chuyển khoản."/>
+                        <Label TextColor="#0000ff" Text="– Quý Khách không hài lòng nhân viên, Thợ Việt sẽ đổi thợ khác, Công ty luôn mong muốn Quý Khách hài lòng khi sử dụng dịch vụ."/>
+                        <Label TextColor="#0000ff" Text="– Thợ Việt thành lập từ năm 2011, dịch vụ điện nước, điện lạnh, mộc nhận được sự tin yêu của người Sài Gòn !"/>
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/01/tho-moc-son-sua-do-go-59.jpg" 
+                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200"/>
+                    </StackLayout>
+                </Frame>
+                <!--Lợi ích của Thợ Việt mang lại cho Khách hàng-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout >
+                        <Label Text="Lợi ích của Thợ Việt mang lại cho Khách hàng"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="FillAndExpand"
+                       HorizontalTextAlignment="Start"/>
+                        <Label Text="+ Mang lại sự phong phú, đa dạng cho khách hàng với hàng nghìn bảng màu sắc có sẳn."/>
+                        <Label Text="+ Với một cái nhìn chuyên nghiệp, các chuyên gia của chúng tôi có thể phối hợp màu một cách hài hòa nhất."/>
+                        <Label Text="+ Các loại sơn của chúng tôi đều có chất lượng tốt nhất trên thị trường hiện nay."/>
+                        <Label Text="+ Sửa chữa đồ gỗ nội thất một cách nhanh chóng."/>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc Dịch vụ sơn sửa lại đồ gỗ nội thất-->
+                <!--Dịch vụ sơn sửa lại đồ gỗ nội thất-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label Text="Dịch vụ sơn sửa lại đồ gỗ nội thất"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Start"
+                       />
+                        <Label Text="– Sơn sửa cửa sổ, cửa thông phòng, cửa đi bị sập xệ khó đóng hư hỏng cong vênh."/>
+                        <Label Text="– Sửa chữa, sơn lại bàn ghế, giường tủ, thay hậu tủ, thay đợt tủ."/>
+                        <Label Text="– Tủ bếp bị mốt một, xập xệ, xuống cấp."/>
+                        <Label Text="– Sửa sơn lại cầu thang, lan can."/>
+                        <Label Text="– Sàn gỗ bị co ngót."/>
+
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc Dịch vụ sơn sửa lại đồ gỗ nội thất-->
+                <!--Tho Quy trình tiếp nhận thông tin sơn sửa đồ gỗ nội thất-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label Text="Quy trình tiếp nhận thông tin sơn sửa đồ gỗ nội thất"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Start"
+                       />
+
+                        <Label Text=" – Tiếp nhận thông tin khách hàng."/>
+                        <Label Text=" – Cho nhân viên tới khảo sát, tư vấn, báo giá."/>
+                        <Label Text=" – Sau khi thống nhất, chúng tôi triển khai công việc."/>
+                        <Label Text=" – Quý khách nghiệm thu công việc sau khi hoàn thành."/>
+                        <Label Text=" – Thanh toán và viết hóa đơn."/>
+                        <Label Text="Cùng Thợ Việt trải nghiệm chất lượng dịch vụ sơn sửa đồ gỗ nội thất tại nhà với đội ngũ có tay nghề cao. Luôn chuyên nghiệp, nhiệt tình mọi lúc, mọi nơi mà khách hàng yêu cầu.."
+                               TextColor="Black"
+                       FontAttributes="Italic"
+                               />
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc Quy trình tiếp nhận thông tin sơn sửa đồ gỗ nội thất-->
+
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

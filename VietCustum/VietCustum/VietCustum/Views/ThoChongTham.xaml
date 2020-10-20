@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VietCustum.Views.ThoChongTham"
+             Title="Thợ Chống Thấm">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="10">
+
+            <ScrollView HorizontalOptions="FillAndExpand">
+
+                <StackLayout>
+
+                    <Label Text="Thợ Chống Thấm"
+                   FontSize="Title"
+                   TextColor="red"
+                   FontAttributes="Bold"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Start"
+                />
+
+                    <Label Text="Với cái tâm làm nghề Thợ Việt Luôn hướng tới dịch vụ tuyệt vời nhất cho mọi khách hàng. Thợ Việt luôn khẳng định dịch vụ với 3 yếu tố sau:"
+                       TextColor="Black"/>
+
+                    <!--khang dinh dich vuj-->
+                    <Frame BorderColor="Silver" CornerRadius="5" >
+                        <Grid HorizontalOptions="CenterAndExpand">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackLayout Grid.Column="0" HorizontalOptions="Center" >
+                                <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/premium-quality.png"/>
+                                <Label Text="CHẤT LƯỢNG" HorizontalTextAlignment="Center" FontSize="Small"/>
+                            </StackLayout>
+                            <StackLayout Grid.Column="1" HorizontalOptions="Center" Margin="2">
+                                <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/reputation.png" />
+                                <Label Text="UY TÍN" HorizontalTextAlignment="Center"  FontSize="Small"/>
+                            </StackLayout>
+                            <StackLayout Grid.Column="2" HorizontalOptions="Center" >
+                                <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/efficiency.png" />
+                                <Label Text="HIỆU QUẢ" HorizontalTextAlignment="Center" FontSize="Small"/>
+                            </StackLayout>
+
+                        </Grid>
+                    </Frame>
+                    <!--Ket thuc-->
+                    <!--Chong tham san thuong-->
+
+                    <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                        <StackLayout>
+                            <Label Text="Chống Thấm Sân Thượng"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Center"
+                       />
+                            <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/2407-20-Chong-tham-san-thuong-2.jpg" 
+                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200" Margin="0"/>
+                            <Label Text="   + Nhận thi công chống thấm sân thượng đã lót gạch."/>
+                            <Label Text="   + Chống thấm sân thượng chưa hoàn thiện."/>
+                            <Label Text="   + Chống thấm sân thượng bằng sơn chống thấm."/>
+                            <Label Text="   Nhiều phương pháp thi công, phương án tiến hành. Thợ của Thợ Việt sẽ nhanh chóng tìm ra nguyên nhân sân thượng của bạn bị thấm. Từ đó sẽ đưa ra các phương án tối ưu nhất xử lý dứt điểm thấm."/>
+
+                        </StackLayout>
+                    </Frame>
+                    <!--ket thuc ket thuc tho chong tham san thuong-->
+                    <!--Xử lý thấm trong nhà tắm-->
+                    <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                        <StackLayout>
+                            <Label Text="Xử lý thấm trong nhà tắm"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Center"
+                       />
+                            <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/2407-20-sua-chua-tham-tuong-nha-A-Linh-8.jpg" 
+                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200" Margin="0"/>
+                            <Label Text="   + Xử lý thấm nước do hộp gen."/>
+                            <Label Text="   + Xử lý thấm lỗ thoát sàn nhà tắm."/>
+                            <Label Text="   + Làm lại gạch nền xử lý thấm."/>
+
+                        </StackLayout>
+                    </Frame>
+                    <!--ket thuc Xử lý thấm trong nhà tắm-->
+                    <!--Chông thấm tường nhà-->
+                    <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                        <StackLayout>
+                            <Label Text="Chông thấm tường nhà"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Center"
+                       />
+                            <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/chongthamtuongnha.jpg" 
+                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200" Margin="0"/>
+                            <Label Text="   + Thi công sơn chống thấm"/>
+                            <Label Text="   + Xử lý nứt chân chim tường nhà."/>
+                            <Label Text="   + Và các tình trạng thấm khác."/>
+
+                        </StackLayout>
+                    </Frame>
+                    <!--ket thuc chong tham tuong nha-->
+                    <!--Bảng giá Chông thấm-->
+                    <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                        <StackLayout>
+                            <Label Text="Bảng giá chống thấm demo"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Center"
+                       />
+                            <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/chongthamtuongnha.jpg" 
+                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200" Margin="0"/>
+                            <Label Text="   + Thi công sơn chống thấm"/>
+                            <Label Text="   + Xử lý nứt chân chim tường nhà."/>
+                            <Label Text="   + Và các tình trạng thấm khác."/>
+
+                        </StackLayout>
+                    </Frame>
+                    <!--ket thuc Bảng giá Chông thấm-->
+                    <Frame BackgroundColor="White" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                        <StackLayout>
+                            <Label Text="Bảng Giá Trên là bảng giá tham khảo Quý Khách vui lòng liên hệ trực tiếp để nhận được báo giá chính xác nhất!"
+                                   FontSize="Medium"
+                                   TextColor="red"
+                                   FontFamily="times new roman"
+                                   FontAttributes="Italic"
+                                   HorizontalOptions="CenterAndExpand"
+                                   HorizontalTextAlignment="Center"/>
+                            <Label Text="Hotline: 0903 532 938"
+                                   FontSize="Medium"
+                                   TextColor="#087ce2"
+                                   HorizontalOptions="CenterAndExpand"
+                                   HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </Frame>
+                    <!--nguyen nhan gay tham tuong nha-->
+                    <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                        <StackLayout>
+                            <Label Text="Một số nguyên nhân khiến tường nhà bạn bị thấm:"
+                                    FontSize="Medium"
+                                    TextColor="Black"
+                                    HorizontalOptions="CenterAndExpand"
+                                    HorizontalTextAlignment="Center"/>
+                            <Label Text=" – Tường nhà bị thấm do trời mưa nhiều, lượng nước ngấm vào tường lớn. Bản chất của xi măng hút nước mạnh và có những mao quản (khoảng cách giữa các hạt) có đường kính khoảng từ 20 – 40 micromet. Do đó, khi bề mặt tường tiếp xúc với nước, những khe hở mao quản sẽ bị nước xâm nhập vào bên trong gây ra hiện tượng thấm."/>
+                            <Label Text=" – Do vị trí các ống thoát nước sàn giáp lai tường nhà, rãnh nước trên sàn mái… Nước và hơi ẩm từ những nơi này có thể theo các vết nứt, mao mạch rỗng của tường thấm sâu vào bên trong. Theo thời gian, tường nhà bị nước thấm vào tạo nên từng mảng loang lổ với lớp sơn xuống cấp."/>
+                            <Label Text=" – Tường nhà xuống cấp do thời gian dài sử dụng, những vết nứt, bong tróc xuất hiện làm cho nước và hơi ẩm thấm sâu vào bên trong tường, đặc biệt khi vào mùa mưa tình trạng này lại diễn ra trầm trọng hơn. "/>
+                            <Label Text=" – Trong quá trình xây dựng, người thợ sử dụng cốt liệu bê tông không đúng quy chuẩn, hoặc không đủ vữa xi măng. "/>
+                            <Label Text=" – Nguyên nhân trực tiếp nhất vẫn là công trình không chủ động sử dụng những phương pháp ngăn thấm dột ngay từ những ngày đầu xây dựng."/>
+                            <Label Text="   Ngoài ra còn có nhiều nguyên nhân khách quan khác có thể dẫn đến việc tường nhà bạn bị thấm. Việc cần thiết là xử lý triệt để căn nguyên của việc bị thấm."/>
+
+                        </StackLayout>
+                    </Frame>
+                    <!--ket thuc nguyen nhan gay tham-->
+
+                    <Label Text="Công ty TNHH Dịch Vụ Kỹ Thuật Thợ Việt"
+                       TextColor="Black"
+                       FontSize="Medium"
+                           HorizontalTextAlignment="Center"
+                           HorizontalOptions="Center"
+                       />
+
+                    <Label Text=" – Với đội ngũ kỹ thuật viên có trình độ, tận tình, trang bị đầy đủ công cụ hiện đại đảm bảo cho quý khách hàng được phục vụ nhanh chóng, chất lượng…"/>
+                    <Label Text=" – Tất cả các thiết bị lắp đặt, sửa chữa sẽ được bảo hành dài hạn"/>
+                    <Label Text=" – Mạng lưới phục vụ rộng khắp thành phố Hồ Chí Minh."/>
+                    <Label Text=" Thợ Việt với đội ngũ thợ chống thấm, điện lạnh, điện nước, vệ sinh,... lành nghề, uy tín, chất lượng, phục vụ nhiệt tình chu đáo, giá cả phải chăng."
+                       TextColor="Black"
+                       FontAttributes="Italic"
+                       
+                       />
+                </StackLayout>
+
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+Title="Thợ Điện Lạnh"
+             x:Class="VietCustum.Views.ThoDienLanh">
+    <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="10">
+
+        <ScrollView HorizontalOptions="FillAndExpand">
+
+            <StackLayout>
+                <Label Text="Sửa Chữa - Lắp Đặt Điện Lạnh"
+                   FontSize="Title"
+                   TextColor="red"
+                   FontAttributes="Bold"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Start"
+                />
+                <Label Text="Thợ điện lạnh là một phần trong đội ngũ của Công ty Thợ Việt. Với nhiều Thợ chuyên nhận thực hiện các công việc:"
+                       TextColor="Black"/>
+                <Label Text=" – Lắp đặt,di rời, chuyển vị trí mới cho máy lạnh, tủ lạnh, máy giặt…"/>
+                <Label Text=" – Sửa chữa máy lạnh điều hòa, tủ lạnh, tủ đông, máy giăt…"/>
+                <Label Text=" – Bảo trì, vệ sinh điều hoà không khí, vệ sinh máy giặt,…"/>
+                <Label Text="Dịch vụ điện lạnh Thợ Việt rất mong được phục vụ quý khách hàng, Thợ điện lạnh chuyên nhận sửa chữa, vệ sinh các sản phẩm liên quan tới điện lạnh như:"
+                       FontAttributes="Italic" TextColor="Black"
+                       />
+                <Grid HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height = "*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_Ve-sinh-may-lanh-1.jpg"/>
+                    <Image Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-sua-tu-lanh-11-1.jpg"/>
+                    <Image Grid.Column="2" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-sua-may-giat-2.jpg"/>
+                </Grid>
+                <!--Tho lap may lanh-->
+
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label Text="Thợ Tháo Lắp Đặt Máy Lạnh"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Center"
+                       />
+                        <Label Text="– Thợ Việt nhận tháo, lắp mới, di dời máy cũ ở mọi địa thế. Lắp đặt máy lạnh với những dụng cụ chuyên dùng:"/>
+                        <Label Text="   + Khoan bê tông rút lõi. Ưu điểm khi khoan xuyên tường, khoan đến đâu rút lõi bê tông đến đó, không phải đục tường như phương pháp truyền thống. Tính thẩm mỹ cao. Đạt yêu cầu về kỹ thuật."/>
+                        <Label Text="   + Súng bắn vít, xoay Bulông – Nhanh chóng trong thi công. Tiết kiệm thời gian cho khách hàng."/>
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-lap-dat-thao-rap-may-lanh_tho-viet-1.jpg" 
+                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200"/>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc tho lap may lanh-->
+                <!--Tho sua chua may lanh-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout >
+                        <Label Text="Thợ Sửa Chữa Máy Lạnh"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Start"
+                       />
+                        <Label Text="Thợ Việt chuyên sửa chữa các trường hợp sau:"
+                           TextColor="Black"/>
+                        <Label Text=" – Sửa máy lạnh không chạy, không điều khiển được Remote để mở dàn lạnh"/>
+                        <Label Text=" – Súng bắn vít, xoay Bulông – Nhanh chóng trong thi công. Tiết kiệm thời gian cho khách hàng."/>
+                        <Label Text=" – Sửa máylạnh bị hỏng Block, thay bock mới chính hãng 100%."/>
+                        <Label Text=" – Khắc phục hiện tượng xì gas dàn nóng hoặc dàn lạnh, thay đường ống máy lạnh."/>
+                        <Label Text=" – Sửa máy lạnh chạy khoảng 30 phút thì ngưng."/>
+                        <Label Text=" – Bơm gas mới R22, R410 cho máy lạnh."/>
+                        <Label Text=" – Sửa máy lạnh không lạnh, hết gas."/>
+                        <Label Text=" – Khách hàng gọi đến công ty chúng tôi báo máy lạnh bị sự cố hư hỏng."/>
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_Tho-sua-may-lanh.jpg" 
+                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200"/>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc tho sua chua may lanh-->
+                <!--tho ve sinh may lanh-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label Text="Thợ Vệ Sinh Máy Lạnh"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Start"
+                       />
+                        <Label Text="Công việc vệ sinh – bảo trì trọn gói bao gồm:"
+                           TextColor="Black"/>
+                        <Label Text="– Xịt rửa dàn nóng lạnh, kiểm tra máy lạnh, kiểm tra gas, châm gas thêm miễn phí (Gas R22 Ấn Độ)."/>
+                        <Label Text="– Bảo hành máy trong 01 tháng nếu máy bị chảy nước, thiếu gas do quá trình kiểm tra."/>
+                        <Label Text="– Vệ sinh sạch sẽ, gọn gàng, trách nhiệm, nhiệt tình, uy tín."/>
+                        <Grid HorizontalOptions="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height = "*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_Tho-ve-sinh-rua-may-lanh-quan-1-2-3-4-5-6-7-10.jpg"/>
+                            <Image Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_Tho-ve-sinh-rua-may-lanh-quan-1-2-3-4-5-6-7-8.jpg"/>
+
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc tho ve sinh may lanh-->
+                <!--Tho ve sinh may giat-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label Text="Thợ Vệ Sinh Máy Giặt"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Start"
+                       />
+
+                        <Label Text=" – Nhận vệ sinh các loại máy giặt lồng ngang( máy giặt cửa trước), máy giặt lồng đứng( máy giặt cửa trên)."/>
+                        <Label Text=" – Khi vệ sinh máy giặt bằng dịch vụ của Thợ Việt máy giặt thực sự sạch vì chúng tôi tháo lồng giặt ra vệ sinh bằng tia nước áp xuất cao. "/>
+                        <Label Text=" – Kiểm tra kỹ lưỡng các linh kiện chi tiết máy trước và sau khi vệ sinh."/>
+                        <Label Text=" – An toàn – tiết kiệm cho Bạn và Gia đình."/>
+
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-sua-may-giat-tai-nha-tphcm.jpg" 
+                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200"/>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc tho ve sinh may giat-->
+                <!--Tho sua chua may giat-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label Text="Thợ Sửa Chữa Máy Giặt"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Start"
+                       />
+                        <Label Text="Thợ Việt chuyên sửa chữa các trường hợp sau:"
+                           TextColor="Black"/>
+                        <Label Text=" – Để thuận tiện cho việc sửa máy giặt và tiết kiệm thời gian đi lại của khách hàng."/>
+                        <Label Text=" – Công ty TNHH dịch vụ kỹ thuật Thợ Việt mở ra dịch vụ sửa máy giặt tại nhà."/>
+                        <Label Text=" – Bất kì trường hợp nào liên quan tới máy giặt dù là lớn nhỏ đều được chúng tôi khắc phục một cách nhanh chóng nhất."/>
+                        <Label Text=" – Quý khách sẽ hài lòng với dịch vụ sửa máy giặt của chúng tôi."/>
+                        <Label Text=" – Hoàn toàn có thể yên tâm về thời gian cũng như chất lượng."/>
+                        <Label Text=" Vì chúng tôi có mặt trên khắp địa bàn TPHCM nên sẽ có mặt nhanh chóng khi nhận được thông tin khách hàng."
+                           FontAttributes="Italic"
+                           />
+
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-ve-sinh-may-giat.jpg" 
+                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200"/>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc tho sua chua may giat-->
+                <!--Tho sua chua tu lanh-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label Text="Thợ Sửa Chữa Tủ Lạnh"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Start"
+                       />
+
+                        <Label Text=" – Tủ lạnh giúp bạn bảo quản thực phẩm được lâu hơn."/>
+                        <Label Text=" – Chính vì sự quan trọng nên khi tủ lạnh bị hỏng. Bạn cần phải tìm phương pháp khắc phục."/>
+                        <Label Text=" – Phương pháp nhanh nhất đó là gọi ngay cho dịch vụ sửa chữa tủ lạnh."/>
+                        <Label Text=" – Công ty TNHH dịch vụ kỹ thuật Thợ Việt chuyên sửa chữa tủ lạnh với các lỗi hư hỏng dù là nhỏ nhất."/>
+                        <Label Text=" – Một số lỗi thường gặp ở tủ lạnh – tủ đông:"
+                           FontAttributes="Bold"
+                           />
+                        <Label Text="   + Thời gian làm lạnh kéo dài."/>
+                        <Label Text="   + Đèn sáng nhưng tủ lạnh không chạy."/>
+                        <Label Text="   + Tủ lạnh phát ra tiếng ồn lớn."/>
+                        <Label Text="   + Có tiếng gõ nhẹ bên trong block."/>
+                        <Label Text="   + Có hiện tượng đọng sương bên ngoài."/>
+
+                        <Grid HorizontalOptions="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height = "*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-sua-tu-lanh-tu-dong-tai-nha-6.jpg"/>
+                            <Image Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-sua-tu-lanh-11-1.jpg"/>
+
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc tho sua chua tu lanh-->
+                <Label Text="Công ty TNHH Dịch vụ kỹ thuật Thợ Việt – Thợ điện lạnh:"
+                       TextColor="Black"
+                       FontSize="Medium"
+                       />
+                <Label Text=" – Với đội ngũ kỹ thuật viên có trình độ, tận tình, trang bị đầy đủ công cụ hiện đại đảm bảo cho quý khách hàng được phục vụ nhanh chóng, chất lượng…"/>
+                <Label Text=" – Tất cả các thiết bị lắp đặt, sửa chữa sẽ được bảo hành dài hạn"/>
+                <Label Text=" – Mạng lưới phục vụ rộng khắp thành phố Hồ Chí Minh."/>
+                <Label Text=" Thợ Việt với đội ngũ thợ điện lạnh lành nghề, uy tín, chất lượng, phục vụ nhiệt tình chu đáo, giá cả phải chăng."
+                       TextColor="Black"
+                       FontAttributes="Italic"
+                       
+                       />
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
