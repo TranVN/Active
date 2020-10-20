@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "23j4zMF75eKM2tE9FiRO+fOhNnfQE7Cx0gagyapuRNP7vBxvqZVyeVkz8EbWPk5sD6o73H2xeTn1dvt5xNSDHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Win 10\\source\\repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\VietCustum.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}
