@@ -938,3 +938,8 @@ C:\Users\Win 10\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Andr
 C:\Users\Win 10\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Win 10\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\res\drawable\splash_logo.png
 C:\Users\Win 10\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\res\drawable\splass_thoviet.png
+C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\res\drawable\splash_screen.xml
+C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\res\drawable\splash_logo.png
+C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\res\drawable\splass_thoviet.png
+C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\res\drawable\home.png
+C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\android\src\crc64037cb5e099429ce5\SplashActivity.java

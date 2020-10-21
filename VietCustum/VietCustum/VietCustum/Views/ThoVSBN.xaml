@@ -176,19 +176,28 @@
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition/>
                                 <ColumnDefinition />
+                                <ColumnDefinition />
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="auto"/>
-                                <RowDefinition Height="auto"/>
-                                <RowDefinition Height="auto"/>
-                                <RowDefinition Height="auto"/>
+                              
+                               
                             </Grid.RowDefinitions>
-                            <Image Grid.Row="0" Grid.Column="0"  Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_ve-sinh-bon-nuoc-tai-quan-7-9-1.jpg"/>
-                            <Image Grid.Row="1"  Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2018/12/ve-sinh-bon-nuoc-tai-quan-6-1.jpg"/>
-                            <Image  Grid.Row="2" Grid.Column="0"  Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_ve-sinh-bon-nuoc-tai-quan-7-3-1.jpg"/>
-                            <Image  Grid.Row="3" Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2018/12/ve-sinh-bon-nuoc-inox-quan-thu-duc-3.jpg"/>
+                            <Image  Grid.Column="0"  Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_ve-sinh-bon-nuoc-tai-quan-7-9-1.jpg"/>
+                            <Image   Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2018/12/ve-sinh-bon-nuoc-tai-quan-6-1.jpg"/>
+                            <Image   Grid.Column="2"  Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_ve-sinh-bon-nuoc-tai-quan-7-3-1.jpg"/>
                             
                         </Grid>
+                        <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceBetween">
+                            <Label Text="Phương trâm của Công ty Thợ Việt" FontAttributes="Bold"/>
+                            <Label Text="Nhiệt tình – Chất lượng – Uy tín" FontAttributes="Bold"/>
+                            <Label Text="Gọn gàng – Sạch sẽ – Giá cả hợp lý" FontAttributes="Bold"/>
+                            <Label Text="Chăm sóc ngôi nhà yêu thương" FontAttributes="Italic"/>
+                            <Label Text="1 lần gọi cho tất cả các dịch vụ gia đình" FontAttributes="Italic"/>
+                            <Label Text="THỢ VIỆT – TỰ HÀO NGƯỜI THỢ VIỆT NAM" FontAttributes="Bold" TextColor="#0477db"/>
+                            <Label Text="Hotline: 0903 532 938 Tư vấn 24/7"/>
+                        </FlexLayout>
+
                     </StackLayout>
                 </Frame>
             </StackLayout>

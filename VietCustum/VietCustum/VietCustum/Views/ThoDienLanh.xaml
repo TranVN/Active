@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-Title="Thợ Điện Lạnh"
+             Title="Thợ Điện Lạnh"
              x:Class="VietCustum.Views.ThoDienLanh">
     <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="5">
 
@@ -182,6 +182,7 @@ Title="Thợ Điện Lạnh"
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="auto"/>
                                 <ColumnDefinition Width="auto"/>
+
                             </Grid.ColumnDefinitions>
                             <Image Grid.Column="0" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-sua-tu-lanh-tu-dong-tai-nha-6.jpg"/>
                             <Image Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-sua-tu-lanh-11-1.jpg"/>
