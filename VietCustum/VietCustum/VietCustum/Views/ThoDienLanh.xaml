@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 Title="Thợ Điện Lạnh"
              x:Class="VietCustum.Views.ThoDienLanh">
-    <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="10">
+    <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="5">
 
         <ScrollView HorizontalOptions="FillAndExpand">
 

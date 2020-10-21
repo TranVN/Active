@@ -22,3 +22,5 @@ C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\D
 C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\VietCustum.dll
 C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\ref\VietCustum.dll
 C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\VietCustum.pdb
+C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\Views\ThoDien.xaml.g.cs
+C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\Views\ThoSuaNha.xaml.g.cs

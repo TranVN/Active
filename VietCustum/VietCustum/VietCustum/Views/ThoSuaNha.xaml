@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VietCustum.Views.ThoSuaNha"
+             Title="Thợ Sửa Nhà">
+    <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="5" >
+        <ScrollView HorizontalOptions="FillAndExpand">
+            <StackLayout>
+                <Label Text="Dịch Vụ Sửa Nhà Trọn Gói"
+                   FontSize="Title"
+                   TextColor="red"
+                   FontAttributes="Bold"
+                   HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Center"
+                   VerticalOptions="Start"/>
+                <StackLayout>
+                    <Label Text=" – Bạn đang có dự định sử dụng dịch vụ sửa nhà trọn gói để giúp bạn tân trang lại ngôi nhà? "
+                       />
+                    <Label Text=" –  Và bạn mong muốn có được một địa chỉ uy tín để giao phó nhiệm vụ cao cả này?"/>
+                    <Label Text="Hãy để Thợ Việt với đội ngũ chuyên nghiệp – tay nghề cao sẽ giúp Bạn."/>
+                </StackLayout>
+                <!--khang dinh dich vu-->
+                <Frame BorderColor="Silver" CornerRadius="5" >
+                    <Grid HorizontalOptions="CenterAndExpand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Grid.Column="0" HorizontalOptions="Center" >
+                            <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/premium-quality.png" WidthRequest="50" HeightRequest="50"/>
+                            <Label Text="CHẤT LƯỢNG" HorizontalTextAlignment="Center" FontSize="Small"/>
+                        </StackLayout>
+                        <StackLayout Grid.Column="1" HorizontalOptions="Center" Margin="2">
+                            <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/reputation.png" WidthRequest="50" HeightRequest="50" />
+                            <Label Text="UY TÍN" HorizontalTextAlignment="Center"  FontSize="Small"/>
+                        </StackLayout>
+                        <StackLayout Grid.Column="2" HorizontalOptions="Center" >
+                            <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/money-1.png" WidthRequest="50" HeightRequest="50"/>
+                            <Label Text="GIÁ RẺ" HorizontalTextAlignment="Center" FontSize="Small"/>
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+                <!--Ket thuc-->
+
+                <Frame BorderColor="Silver" HasShadow="True" Padding="5" CornerRadius="5">
+                    <StackLayout>
+                        <Label Text="Nhận phục vụ khách hàng với các yêu cầu sau:" FontSize="Medium" HorizontalTextAlignment="Start"/>
+                        <Label Text="   – Thi công điện nước âm." />
+                        <Label Text="   – Sơn sửa tân trang nhà cũ." />
+                        <Label Text="   – Xây dựng nhà phố." />
+                        <Label Text="   – Tư vấn thiết kế không gian đẹp." />
+                        <Image WidthRequest="410" HeightRequest="200" Source="https://thoviet.com.vn/wp-content/uploads/2020/07/son-sua-nha-cu.png"/>
+                    </StackLayout>
+                </Frame>
+                <!--quy trinh lam viec-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label Text="Quy trình làm việc"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="FillAndExpand"
+                       HorizontalTextAlignment="Center"/>
+                        <Label Text="Tiếp nhận thông tin khách hàng:" FontAttributes="Bold"/>
+                        <Label Text="   – Quý Khách hàng có thể đặt lịch tư vấn hỗ trợ qua 3 cách: " />
+                        <Label Text="    + Liên hệ trực tiếp với Dịch vụ sửa nhà trọn gói Thợ Việt qua Hotline : 0903.532.938" />
+                        <Label Text="    + Liên hệ qua Fanpage : Công Ty Thợ Việt" />
+                        <Label Text="    + Hoặc zalo 0903.532.935 - 0914.439.118" />
+                        <Button Text="Báo Giá Miễn Phí" Clicked="CallHotline" WidthRequest="200" HeightRequest="50" Margin="60, 5" CornerRadius="50" 
+                                BackgroundColor="#2b5896"
+                               FontAttributes="Bold"
+                                />
+                        <Image WidthRequest="410" HeightRequest="200" Source="https://thoviet.com.vn/wp-content/uploads/2020/07/CSKH.png"/>
+                        <Label Text="Khảo sát thực tế công trình thi công:" FontAttributes="Bold"/>
+                        <Label Text="   – Sau khi tiếp nhận thông tin từ phía khách hàng. Thợ Việt sẽ cử đội thợ xuống trực tiếp tại công trình, nhà khách hàng để trao đổi thực tế công việc với quý khách." />
+                        <Label Text="    + Trao đổi kỹ với khách hàng từng vị trí cụ thể." />
+                        <Label Text="    + Đưa ra nhiều phương án cho khách hàng lSựa chọn." />
+                        <Image WidthRequest="410" HeightRequest="200" Source="https://thoviet.com.vn/wp-content/uploads/2020/07/thietke.png"/>
+                        <Label Text="Kí kết hợp đồng và tiến hành thi công" FontAttributes="Bold"/>
+                        <Label Text="   – Trao đổi mọi nội dung với khách hàng và tiến hành báo giá." />
+                        <Label Text="    + Khách Hàng đồng ý giá." />
+                        <Label Text="    + Thợ Việt lên Hợp Đồng." />
+                        <Label Text="    + Khách Hàng đồng ý báo giá cũng như Hợp Đồng." />
+                        <Label Text="    + Đội sửa nhà trọn gói Thợ Việt tiến hành thi công theo phương án đã tiến hành." />
+                        <Label Text="    + Dọn dẹp sạch sẽ hoàn thiện công trình trước khi bàn giao." />
+                        <Label Text="    + Bàn giao công trình đúng thời gian." />
+                        <Image WidthRequest="410" HeightRequest="200" Source="https://thoviet.com.vn/wp-content/uploads/2020/07/doi-tac-sua-nha-tron-goi.jpg"/>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc quy trinh lam viec-->
+                <!--Cam ket cua tho viet-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label Text="Cam kết của Thợ Việt"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Center"
+                       />
+                        <Label Text=" Tự hào là đơn vị uy tín trong lĩnh vực thi công công trình, Công ty TNHH Dịch Vụ Kỹ Thuật Thợ Việt cam kết dịch vụ sửa nhà trọn gói:"/>
+                        <Label Text="   – Hợp đồng ký kết rõ ràng, chia làm 2 bản mỗi bên sẽ sở hữu một bản."/>
+                        <Label Text="   – Thi công đúng với những yêu cầu thiết kế đã được thống nhất."/>
+                        <Label Text="   – Bàn giao công trình trong đúng thời gian hợp đồng đã ghi."/>
+                        <Label Text="   – Giá thành dịch vụ hợp lý, cạnh tranh so với các đơn vị khác."/>
+                        <Label Text="   – Vật tư sửa chữa đúng như báo giá.(Nếu có thay đổi công ty sẽ thông báo trước cho quý khách)."/>
+                        <Label Text="   – Bảng báo giá rõ ràng chi tiết, nói không với tình trạng gian lận lừa đảo về giá và chất lượng thi công."/>
+                        <Label Text="   – Trong quá trình thi công tuyệt đối không làm tổn thất, hư hao tài sản, của cải trong nhà của khách hàng."/>
+                        <Label Text="   – Không thu thêm bất cứ một khoản chi phí nào khi đã phương án sửa chữa đã được lên và báo giá dịch vụ sửa nhà trọn gói."/>
+                        <Label Text="   – Tuân thủ các quy định, tiêu chuẩn về sửa chữa nhà của, luật xây dựng và an toàn lao động."/>
+                        <Label Text="   – Trước khi bàn giao công trình phải đảm bảo được gọn gàng, vệ sinh sạch sẽ."/>
+                        <Label Text="   – Sau khi bàn giao cam kết nhà đẹp, bên và bảo hành lâu dài."/>
+                        <Label Text="   – Có đầy đủ mọi giấy tờ, hóa đơn, bảo hành,…đảm bảo tối đa quyền lợi cho phía khách hàng."/>
+
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc cam ket cua tho viet-->
+                
+
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                Title="Thợ Điện Nước"
              x:Class="VietCustum.Views.ThoDienNuoc">
-    <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="10">
+    <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="5">
 
         <ScrollView HorizontalOptions="FillAndExpand">
             <StackLayout>
@@ -64,12 +64,10 @@
                 <Frame BackgroundColor="White" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
                     <StackLayout>
                         <Label Text="Thợ Sửa Ống Nước Âm - Nổi"
-                       FontSize="Medium"
-                       TextColor="Black"
-                       HorizontalOptions="CenterAndExpand"
-                       HorizontalTextAlignment="Start"
-
-                       />
+                               FontSize="Medium"
+                               TextColor="Black"
+                               HorizontalOptions="CenterAndExpand"
+                               HorizontalTextAlignment="Start"/>
                         <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/06/lap-ong-nuoc.jpg" 
                            HorizontalOptions="Center" WidthRequest="200" HeightRequest="200"/>
                         <Label Text=" – Thi công lắp đặt, tu sửa, xữ lý các trang thiết bị tolet."/>
@@ -104,7 +102,6 @@
                     <Label Text=" 1. Tiếp nhận thông tin Khách Hàng qua Hotline: 0903.532.938  Hoặc qua các mạng xã hôi như  ZALO, FACEBOOK."/>
                     <Label Text=" 2. Nhân viên sẽ sắp xếp thợ phù hợp nhất để tiến xử lý yêu cầu của Quý Khách( vị trí, mức độ công việc,….)"/>
                     <Label Text=" 3. Thợ làm xong, Thợ Việt sẽ lưu thông tin của Quý Khách. Việc lưu lại thông tin này nhằm mục đích Bảo Hành cho Quý Khách. Ngoài ra nhưng thông tin này của Khách Hàng hoàn toàn được bảo mật tại công ty."/>
-
                     <Label Text=" III. Tiếp nhận thông tin bảo hành – ý kiến đóng góp của Khách Hàng" FontAttributes="Bold"/>
                     <Label Text=" Thợ Việt luôn có gắng để đem lại chất lượng dịch vụ tốt nhất cho Quý Khách. Thợ Việt luôn mong muốn nhận được các ý kiến phản hồi dịch vụ. Dưới đây là 3 cách mà Quý Khách có thể phản hồi cho Thợ Việt:"/>
                     <Label Text=" Thợ Việt đã và đang hoàn thiện Quy Trình làm việc để phục vụ tốt nhất cho mọi Quý Khách. Dưới đây là quy trình làm việc của chúng tôi:"/>

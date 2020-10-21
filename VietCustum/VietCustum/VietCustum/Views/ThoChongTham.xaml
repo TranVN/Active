@@ -4,12 +4,11 @@
              x:Class="VietCustum.Views.ThoChongTham"
              Title="Thợ Chống Thấm">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="10">
+        <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="5">
 
             <ScrollView HorizontalOptions="FillAndExpand">
 
                 <StackLayout>
-
                     <Label Text="Thợ Chống Thấm"
                    FontSize="Title"
                    TextColor="red"
@@ -61,7 +60,7 @@
                        HorizontalTextAlignment="Center"
                        />
                             <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/2407-20-Chong-tham-san-thuong-2.jpg" 
-                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200" Margin="0"/>
+                           HorizontalOptions="Center" WidthRequest="410" HeightRequest="300" Margin="0"/>
                             <Label Text="   + Nhận thi công chống thấm sân thượng đã lót gạch."/>
                             <Label Text="   + Chống thấm sân thượng chưa hoàn thiện."/>
                             <Label Text="   + Chống thấm sân thượng bằng sơn chống thấm."/>
@@ -80,7 +79,7 @@
                        HorizontalTextAlignment="Center"
                        />
                             <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/2407-20-sua-chua-tham-tuong-nha-A-Linh-8.jpg" 
-                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200" Margin="0"/>
+                           HorizontalOptions="Center " WidthRequest="410" HeightRequest="300" Margin="0"/>
                             <Label Text="   + Xử lý thấm nước do hộp gen."/>
                             <Label Text="   + Xử lý thấm lỗ thoát sàn nhà tắm."/>
                             <Label Text="   + Làm lại gạch nền xử lý thấm."/>
@@ -98,7 +97,7 @@
                        HorizontalTextAlignment="Center"
                        />
                             <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/chongthamtuongnha.jpg" 
-                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200" Margin="0"/>
+                           HorizontalOptions="Center" WidthRequest="410" HeightRequest="300" Margin="0"/>
                             <Label Text="   + Thi công sơn chống thấm"/>
                             <Label Text="   + Xử lý nứt chân chim tường nhà."/>
                             <Label Text="   + Và các tình trạng thấm khác."/>
@@ -116,7 +115,7 @@
                        HorizontalTextAlignment="Center"
                        />
                             <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/chongthamtuongnha.jpg" 
-                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200" Margin="0"/>
+                           HorizontalOptions="Center" WidthRequest="410" HeightRequest="300" Margin="0"/>
                             <Label Text="   + Thi công sơn chống thấm"/>
                             <Label Text="   + Xử lý nứt chân chim tường nhà."/>
                             <Label Text="   + Và các tình trạng thấm khác."/>

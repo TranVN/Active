@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VietCustum.Views.ThoSuaMayLanh"
               Title="Thợ Sửa Máy Lạnh">
-    <StackLayout HorizontalOptions="Center" Padding="10">
+    <StackLayout HorizontalOptions="Center" Padding="5">
         <ScrollView  VerticalOptions="StartAndExpand">
             <StackLayout>
                 <Label Text="Thợ Sửa Máy Lạnh"
@@ -28,9 +28,10 @@
                         CornerRadius="20"
                         Margin="60,5,60,5"
                         VerticalOptions="CenterAndExpand"
-                        Clicked="ButtonFabcon_Clicked"
                         
+                        Clicked="ButtonFabcon_Clicked"
                         />
+               
                 <Label Text="Tham Khảo Bảng giá nhân công – vật tư điện lạnh.(Giá tham khảo)"
                        FontSize="Medium"
                        TextColor="Black"

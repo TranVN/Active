@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VietCustum.Views.ThoMoc"
               Title="Thợ Mộc">
-    <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="10">
+    <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="5">
         <ScrollView HorizontalOptions="FillAndExpand">
             <StackLayout>
                 <Label Text="Thợ Sơn Sửa Đồ Gỗ"
