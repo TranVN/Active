@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <color android:color="@color/splash_background"/>
+  </item>
+  <item 
+    android:width="150sp"
+    android:height="150sp">
+    <bitmap
+        android:src="@drawable/splass_thoviet"
+        android:tileMode="disabled"
+        android:gravity="center"
+        />
+  </item>
+</layer-list>

@@ -1,3 +1,6 @@
+com.xamarin.sample.splashscreen.SplashActivity, VietCustum.Android;crc64037cb5e099429ce5.SplashActivity
+com.xamarin.sample.splashscreen.SplashActivity;crc64037cb5e099429ce5.SplashActivity
+com.xamarin.sample.splashscreen.SplashActivity;crc64037cb5e099429ce5.SplashActivity
 VietCustum.Droid.MainActivity, VietCustum.Android;crc64568450821533562f.MainActivity
 VietCustum.Droid.MainActivity;crc64568450821533562f.MainActivity
 vietcustum.droid.MainActivity;crc64568450821533562f.MainActivity

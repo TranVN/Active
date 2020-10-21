@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thovi\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\VietCustum.iOS.csproj": {}
+    "C:\\Users\\Win 10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\VietCustum.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thovi\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\VietCustum.iOS.csproj": {
+    "C:\\Users\\Win 10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\VietCustum.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thovi\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\VietCustum.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Win 10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\VietCustum.iOS.csproj",
         "projectName": "VietCustum.iOS",
-        "projectPath": "C:\\Users\\thovi\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\VietCustum.iOS.csproj",
-        "packagesPath": "C:\\Users\\thovi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thovi\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\obj\\",
+        "projectPath": "C:\\Users\\Win 10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\VietCustum.iOS.csproj",
+        "packagesPath": "C:\\Users\\Win 10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win 10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\thovi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Win 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\thovi\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj": {
-                "projectPath": "C:\\Users\\thovi\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj"
+              "C:\\Users\\Win 10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj": {
+                "projectPath": "C:\\Users\\Win 10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj"
               }
             }
           }
@@ -65,20 +65,20 @@
         }
       }
     },
-    "C:\\Users\\thovi\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj": {
+    "C:\\Users\\Win 10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thovi\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj",
+        "projectUniqueName": "C:\\Users\\Win 10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj",
         "projectName": "VietCustum",
-        "projectPath": "C:\\Users\\thovi\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj",
-        "packagesPath": "C:\\Users\\thovi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thovi\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\obj\\",
+        "projectPath": "C:\\Users\\Win 10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj",
+        "packagesPath": "C:\\Users\\Win 10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win 10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\thovi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Win 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

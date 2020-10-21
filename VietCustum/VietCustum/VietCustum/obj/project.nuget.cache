@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "SrdqYJC5so6kFCr4P4EpMERMJWwmZRBkClgG/F4gtnd1OgQs/6YmGU6v0mqdqdshMpTp7w4gUDmhvVF1LWi31Q==",
+  "dgSpecHash": "Jo+Z/e8CBnUF3XY94QBA6x5mlDEY/rrDqI0DvZJDkd4QDhCOZmcFy4qcqlWKxFECxr4QKvUYrwp7KuBE6zAhvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thovi\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj",
+  "projectFilePath": "C:\\Users\\Win 10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\thovi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\thovi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\thovi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Win 10\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Win 10\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Win 10\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
