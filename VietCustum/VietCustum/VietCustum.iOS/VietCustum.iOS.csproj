@@ -142,4 +142,7 @@
       <Name>VietCustum</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\home.png" />
+  </ItemGroup>
 </Project>
