@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VietCustum.Views.ThoVSBN"
+             Title="Vệ sinh bồn nước">
+    <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="5">
+        <ScrollView HorizontalOptions="FillAndExpand">
+            <StackLayout>
+                <Label Text="Nhân Viên Vệ Sinh Bồn Nước"
+                       FontSize="Title"
+                       TextColor="red"
+                       FontAttributes="Bold"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+                <Label Text="   Thợ vệ sinh bồn nước Thợ Việt nhận vệ sinh bồn nước có dung tích từ 0.5 m3 đến trên 20m3. Thợ Việt cung cấp bảng giá vệ sinh bồn nước tham khảo cho Bạn."
+                       />
+                <Label Text="   Thời gian vệ sinh còn tùy thuộc khá lớn vào nguồn nước và mức độ sử dụng nước của từng bồn."/>
+                <Label Text="   Tuy vậy, Bạn nên vệ sinh định kỳ bồn chứa nước 3 tháng 1 lần. Để đảm bảo nguồn nước được chứa trong bồn luôn sạch sẽ bảo đảm an toàn cao nhất cho sức khỏe của Bạn và Gia đình."/>
+
+                <!--Nguyen nhan nen ve sinh bon nuoc-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout >
+                        <Label Text="Vì sao Bạn cần vệ sinh bồn nước thường xuyên?"
+                               FontSize="Medium"
+                               FontAttributes="Bold"
+                               HorizontalOptions="FillAndExpand"
+                               HorizontalTextAlignment="Start"/>    
+                        <Label Text="+ Với những nơi dùng nguồn nước xấu như nước có phèn thường bị đục, lắng cặn, nhưng ngay cả đường nước thủy cục nhiều khi cũng bị cặn, đục do đường ống cũ bị bám bẩn lâu năm. "/>
+                        <Label Text="+ Với nguồn nước giếng thì nên súc rửa khoảng một tháng/lần. "/>
+                        <Label Text="+ Nếu có nguồn nước tốt hơn như nước máy ở các khu vực trong nội thành, có thể vệ sinh mỗi quý/một lần. Có như vậy mới bảo đảm sạch, có nguồn nước trong sử dụng. "/>
+                        <Label Text="+ Mặt khác, nếu để cặn bẩn bám (trong phèn có acid) vào các đường hàn bồn inox thường xuyên sẽ gây gỉ sét và chỗ này là nguyên nhân gây rò rỉ nước."/>
+                        <Grid HorizontalOptions="Center" VerticalOptions="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height = "auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_ve-sinh-bon-nuoc-inox-quan-11-5-e1544773389848-1.jpg"/>
+                            <Image Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_ve-sinh-bon-nuoc-inox-quan-11-5-e1544773389848-7.jpg"/>
+                            <Image Grid.Column="2" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_ve-sinh-bon-nuoc-inox-quan-11-5-e1544773389848-9.jpg"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc Nguyen nhan nen ve sinh bon nuoc-->
+                <!--Bang gia tham khao-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label Text="Bảng giá vệ sinh bồn nước inox, bồn nhựa"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Start"
+                       />
+                        <Label FontAttributes="Italic" Text="Đơn giá phụ thuộc vị trí đặt bồn, vị trí thao tác khó dễ, độ bẩn của bồn, bồn ngầm hay bồn nổi, giảm giá vệ sinh theo số lượng bồn."/>
+                        <Grid BackgroundColor="#ececec">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Column="0"
+                                   Grid.Row="0"
+                                   Text ="Công Việc"
+                                   HorizontalOptions="Fill"
+                                   BackgroundColor="Yellow" 
+                                   HorizontalTextAlignment="Center"
+                                   TextColor="red"/>
+                            <Label Grid.Column="1"
+                                   Grid.Row="0"
+                                   Text ="Giá"
+                                   HorizontalOptions="Fill"
+                                   BackgroundColor="Yellow"
+                                   HorizontalTextAlignment="Center"
+                                   TextColor="red"/>
+                            <Label Grid.Row="1"
+                                   Grid.Column="0"
+                                   Text ="Dưới 500 lít"
+                                   HorizontalOptions="Start"
+                                   TextColor="Black"
+                                   HorizontalTextAlignment="Start"
+                                   Margin="1"/>
+                            <Label Grid.Row="1" 
+                                   Grid.Column="1"
+                                   Text ="250.000đ - 350.000đ"
+                                   HorizontalOptions="Fill"
+                                   HorizontalTextAlignment="Start"
+                                   Margin="1"/>
+                            <Label Grid.Row="2"
+                                   Grid.Column="0"
+                                   Text ="Từ 500 - 1000 lít"
+                                   HorizontalOptions="Fill" 
+                                   HorizontalTextAlignment="Start" 
+                                   Margin="1"/>
+                            <Label Grid.Row="2" Grid.Column="1"
+                                   Text ="350.000đ - 450.000đ"
+                                   HorizontalOptions="Fill"
+                                   HorizontalTextAlignment="Start"
+                                   Margin="1"/>
+                            <Label Grid.Row="3"
+                                   Grid.Column="0"
+                                   Text ="Từ 1500 - 2000 lít"
+                                   HorizontalOptions="Fill" 
+                                   HorizontalTextAlignment="Start" 
+                                   Margin="1"/>
+                            <Label Grid.Row="3"
+                                   Grid.Column="1"
+                                   Text ="450.000đ - 550.000đ"
+                                   HorizontalOptions="Fill"
+                                   HorizontalTextAlignment="Start"
+                                   Margin="1"/>
+                            <Label Grid.Row="4"
+                                   Grid.Column="0"
+                                   Text ="Từ 2000 - 5000 lít"
+                                   HorizontalOptions="Fill" 
+                                   HorizontalTextAlignment="Start" 
+                                   Margin="1"/>
+                            <Label Grid.Row="4" Grid.Column="1"
+                                   Text ="500.000đ - 650.000đ"
+                                   HorizontalOptions="Fill"
+                                   HorizontalTextAlignment="Start"
+                                   Margin="1"/>
+                            <Label Grid.Row="5"
+                                   Grid.Column="0"
+                                   Text ="Trên 5.000 lít"
+                                   HorizontalOptions="Fill"
+                                   HorizontalTextAlignment="Start" 
+                                   Margin="1"/>
+                            <Label Grid.Row="5" 
+                                   Grid.Column="1"
+                                   Text ="Báo giá trước khi làm"
+                                   HorizontalOptions="Fill"
+                                   HorizontalTextAlignment="Start"
+                                   Margin="1"/>
+                        </Grid>
+                        <Label FontAttributes="Italic" Padding="0" Text="Bảng giá vệ sinh bồn nước mang tính chất tham khảo. Để biết được giá chính xác nhất."/>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc bang gia tham khao-->
+                <!--Tho Quy trình tiếp nhận thông tin sơn sửa đồ gỗ nội thất-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label Text="Một số tác hại nếu Bạn không vệ sinh, súc rửa bồn nước định kỳ:"
+                               FontSize="Medium"
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               HorizontalOptions="CenterAndExpand"
+                               HorizontalTextAlignment="Start"/>
+                        <Label Text=" + Bồn nước sau khi sử dụng một thời gian sẽ chứa cát, rong rêu. Sẽ gây tắc nghẽn đường ống dẫn nước. Dẫn đến vòi nước chảy yếu, chảy chậm, và lâu dần sẽ tắc nước"/>
+                        <Label Text=" + Bồn nước dùng lâu ngày sẽ tích tụ lượng phèn gây rỉ sét. Gây hư hỏng bồn rò rỉ, mục bồn inox - đặc biệt đối với khu vực dùng nước giếng."/>
+                        <Label Text=" + Nhiều bằng chứng khoa học cho thấy, các loại virus, vi khuẩn trong nguồn nước. Thủ phạm chính gây ra 85% các bệnh nhi khoa và 65% bệnh tật của người lớn."/>
+                        <Label Text=" + Một số trường hợp nước cấp từ bồn nước xuống yếu do đường ống bị tắc nghẹt, thông nghẹt đường ống."/>
+                        <Label Text=" + Nước cấp thuỷ cục có chứa Clorin tác dụng với luppe máy bơm bằng gang làm phát sinh vi khuẩn sắt. Làm hư hại các đường ống luppe, hư luppe, một số luppe nước PCCC. Gây hư hại làm nước trong ống chảy về bể chứa gây ô nhiễm nặng, có mùi hôi khó chịu."/>
+                        <Label Text=" + Một số trường hợp sử dụng nguồn nước bẩn do bồn chứa nước bị ô nhiễm. Gây bị dị ứng da, bị viêm đường ruột, về lâu dài rất hại sức khỏe con người, đặc biệt là trẻ nhỏ."/>
+                        <Label Text=" + Vi khuẩn sắt làm bồn inox lâu ngày bị rỉ sét, gây lũng bồn chứa, thất thoát nước. Bạn phải tốn tiền hàn bồn, hoặc thay mới bồn inox khác."/>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc Quy trình tiếp nhận thông tin sơn sửa đồ gỗ nội thất-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label Text="Hãy vệ sinh bồn nước sạch sẽ để đảm bảo an toàn cho sức khỏe của Bạn và Gia Đình"
+                               FontAttributes="Bold"
+                               HorizontalOptions="CenterAndExpand"
+                               HorizontalTextAlignment="Start"/>
+                        <Grid HorizontalOptions="Center" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Image Grid.Row="0" Grid.Column="0"  Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_ve-sinh-bon-nuoc-tai-quan-7-9-1.jpg"/>
+                            <Image Grid.Row="1"  Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2018/12/ve-sinh-bon-nuoc-tai-quan-6-1.jpg"/>
+                            <Image  Grid.Row="2" Grid.Column="0"  Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_ve-sinh-bon-nuoc-tai-quan-7-3-1.jpg"/>
+                            <Image  Grid.Row="3" Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2018/12/ve-sinh-bon-nuoc-inox-quan-thu-duc-3.jpg"/>
+                            
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

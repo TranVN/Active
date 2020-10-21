@@ -29,7 +29,7 @@
             </Style>
             <Style TargetType="Label">
                 <Setter Property="TextColor" Value="Black"/>
-
+                <Setter Property="FontFamily" Value="Times New Roman"/>
             </Style>
         </ResourceDictionary>        
     </Application.Resources>

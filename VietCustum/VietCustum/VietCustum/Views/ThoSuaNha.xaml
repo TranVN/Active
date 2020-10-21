@@ -31,15 +31,15 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
 
-                        <StackLayout Grid.Column="0" HorizontalOptions="Center" >
+                        <StackLayout Grid.Column="0" HorizontalOptions="Center" Orientation="Vertical"  Margin="0, 0, 20,0" VerticalOptions="CenterAndExpand">
                             <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/premium-quality.png" WidthRequest="50" HeightRequest="50"/>
-                            <Label Text="CHẤT LƯỢNG" HorizontalTextAlignment="Center" FontSize="Small"/>
+                            <Label Text="TỐT" HorizontalTextAlignment="Center" FontSize="Small"/>
                         </StackLayout>
-                        <StackLayout Grid.Column="1" HorizontalOptions="Center" Margin="2">
+                        <StackLayout Grid.Column="1" HorizontalOptions="Center" Margin="20, 0"  Orientation="Vertical" VerticalOptions="CenterAndExpand">
                             <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/reputation.png" WidthRequest="50" HeightRequest="50" />
                             <Label Text="UY TÍN" HorizontalTextAlignment="Center"  FontSize="Small"/>
                         </StackLayout>
-                        <StackLayout Grid.Column="2" HorizontalOptions="Center" >
+                        <StackLayout Grid.Column="2" HorizontalOptions="Center"  Margin="20, 0, 0,0" Orientation="Vertical" VerticalOptions="CenterAndExpand" >
                             <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/money-1.png" WidthRequest="50" HeightRequest="50"/>
                             <Label Text="GIÁ RẺ" HorizontalTextAlignment="Center" FontSize="Small"/>
                         </StackLayout>
