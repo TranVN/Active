@@ -6,13 +6,15 @@ using Xamarin.Forms;
 
 namespace VietCustum
 {
-    public partial class AppShell : Xamarin.Forms.Shell
+    public partial class AppShell : Xamarin.Forms.TabbedPage
     {
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            var pages = Children.GetEnumerator();
+            pages.MoveNext(); // First page
+            pages.MoveNext(); // Second page
+            CurrentPage = pages.Current;
         }
 
     }
