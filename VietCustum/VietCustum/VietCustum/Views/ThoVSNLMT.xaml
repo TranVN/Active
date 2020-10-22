@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Vệ Sinh Năng Lượng Mặt Trời"
+             x:Class="VietCustum.Views.ThoVSNLMT">
+    <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="5">
+        <ScrollView HorizontalOptions="FillAndExpand">
+            <FlexLayout JustifyContent="SpaceBetween" Direction="Column">
+                <Label Text="Vệ Sinh Máy Nước Nóng Năng Lượng Mặt Trời"
+                       FontSize="Title"
+                       TextColor="red"
+                       FontAttributes="Bold"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+                <Label Text="   Máy nước nóng năng lượng mặt trời sau một thời gian sửa dụng sẽ bị bám bụi bẩn bởi nhiều nguyên nhân. Nguyên nhân chính đó là do nguồn nước cấp đọng lại. Khi máy bị bám bụi, nước bơm vào cũng bị bẩn theo làm cho khả năng hút nhiệt kém. Vì vậy, sau một thời gian sử dụng bạn cần vệ sinh máy nước nóng năng lượng mặt trời. Để đảm  bảo máy hoạt động tốt và nước không bị ô nhiễm."/>
+                <Image HorizontalOptions="Center" Source="https://thoviet.com.vn/wp-content/uploads/2020/08/sua-may-nuoc-nong-nang-luong-mat-troi.gif" Margin="0, 5"  WidthRequest="400" HeightRequest="200"/>
+                <!--Nguyen nhan -->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5" Margin="0,0,0,5">
+                    <StackLayout >
+                        <Label Text="Nguyên nhân dẫn đến máy năng lượng bị ô nhiễm"
+                               FontSize="Medium"
+                               FontAttributes="Bold"
+                               HorizontalOptions="FillAndExpand"
+                               HorizontalTextAlignment="Start"/>
+                        <Label Text="+ Do hệ thống đường nước bơm lên máy năng lượng bị nhiễm phèn."/>
+                        <Label Text="+ Máy nước nóng năng lượng mặt trời lâu ngày bị cặn bẩn rong reo bám vào. Gây ảnh hưởng đển nguồn nước sinh hoạt."/>
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/lap-may-nang-luong-mat-troi.jpg" WidthRequest="400" HeightRequest="200"/>
+                       
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc Nguyen nhan-->
+                <!--Tieu chi dich vu-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5" Margin="0,0,0,5">
+                    <StackLayout>
+                        <Label Text="Tiêu chí của dịch vụ vệ sinh máy nước nóng năng lượng mặt trời"
+                               FontSize="Medium"
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               HorizontalOptions="CenterAndExpand"
+                               HorizontalTextAlignment="Start"/>
+                        <Label Text=" + Nhân viên kĩ thuật lịch sự, làm việc đúng hẹn, thao tác làm việc gọn gàng sạch sẽ, không làm ảnh hưởng đến công việc của khách hàng."/>
+                        <Label Text=" + Tư vấn hướng dẫn khách hàng sử dụng đúng cách hoàn toàn miễn phí."/>
+                        <Label Text=" + Đưa ra giải pháp tối ưu nhất, nhằm tiết kiệm chi phí va tiết kiệm thời gian của quý khách."/>
+                        <Label Text=" + Luôn cam kết mang đến cho quý khách dịch vụ chuyên nghiệp và chất lượng nhất."/>
+                        <Label Text=" + Việc vệ sinh máy lạnh được nhân viên kĩ thuật có tay nghề đảm nhận."/>
+                        <Label Text=" + Sau khi vệ sinh máy nước nóng năng lượng mặt trời quý khách sẽ được chúng tôi bảo hành trong suốt quá trình sử dụng."/>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc tieu chi dich vu-->
+                <!--Tieu chi dich vu-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5" Margin="0,0,0,5">
+                    <StackLayout>
+                        <Label Text="Ưu và nhược điểm sử dụng máy năng lượng mặt trời"
+                               FontSize="Medium"
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               HorizontalOptions="CenterAndExpand"
+                               HorizontalTextAlignment="Start"/>
+                        <!--ưu điểm-->
+                        <Label Text="Ưu điểm:" HorizontalOptions="Start" FontAttributes="Bold"/>
+                        <Label Text=" + Sử dụng năng lượng tự nhiên của mặt trời để làm nóng nước."/>
+                        <Label Text=" + Các hóa đơn tiền điện hàng năm sẽ thấp hơn."/>
+                        <Label Text=" + Giải pháp tuyệt vời đối với các vùng khí hậu nhận được nhiều ánh nắng mặt trời như TPHCM."/>
+                        <Label Text=" + Góp phần giảm thải carbon để bảo vệ môi trường."/>
+                        <Label Text=" + Có nước nóng dùng quanh năm, không lo tình trạng cắt điện thiếu nước nóng."/>
+                        <Label Text=" + An toàn khi sử dụng 100%, các loại máy nước nóng nóng dùng điện có chỉ số an toàn thấp hơn rất nhiều."/>
+                        <Label Text=" + Máy tích nhiệt được từ 48 – 96 giờ tùy loại."/>
+                        <!--nhược điểm-->
+                        <Label Text="Nhược điểm:" HorizontalOptions="Start" FontAttributes="Bold"/>
+                        <Label Text=" + Máy nước nóng năng lượng mặt trời chiếm một phần không gian để lắp đặt máy trên mái nhà hay sân thượng."/>
+                        <Label Text=" + Bạn phải tốn một phần chi phí cho việc đầu tư thiết bị ban đầu."/>
+                        <Label Text=" + Có thể không có hiệu quả như ở những vùng mà không nhận được nhiều ánh nắng mặt trời. Tuy nhiên ở TPHCM thì có thể hoàn toàn yên tâm vấn đề này."/>
+                        <Label Text=" + Bồn có thể tạo ra một lượng nhiệt đáng kể, vì vậy vị trí của nó sẽ cần phải được thiết kế cho phù hợp."/>
+                        <Label Text=" + Cần được bảo trì sau vài năm sử dụng."/>
+                        <Label Text=" + An toàn khi sử dụng 100%, các loại máy nước nóng nóng dùng điện có chỉ số an toàn thấp hơn rất nhiều."/>
+                        <Label Text=" + Máy tích nhiệt được từ 48 – 96 giờ tùy loại."/>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc tieu chi dich vu-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5" Margin="0,0,0,5">
+                    <StackLayout>
+                        <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceBetween">
+                            <Label Text="Phương trâm của Công ty Thợ Việt" FontAttributes="Bold"/>
+                            <Label Text="Nhiệt tình – Chất lượng – Uy tín" FontAttributes="Bold"/>
+                            <Label Text="Gọn gàng – Sạch sẽ – Giá cả hợp lý" FontAttributes="Bold"/>
+                            <Label Text="Chăm sóc ngôi nhà yêu thương" FontAttributes="Italic"/>
+                            <Label Text="1 lần gọi cho tất cả các dịch vụ gia đình" FontAttributes="Italic"/>
+                            <Label Text="THỢ VIỆT – TỰ HÀO NGƯỜI THỢ VIỆT NAM" FontAttributes="Bold" TextColor="#0477db"/>
+                            <Label Text="Hotline: 0903 532 938 Tư vấn 24/7"/>
+                        </FlexLayout>
+                    </StackLayout>
+                </Frame>
+            </FlexLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

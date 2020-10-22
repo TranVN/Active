@@ -17,11 +17,13 @@ C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\D
 C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\Views\ThoSuaMayLanh.xaml.g.cs
 C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\VietCustum.AssemblyInfoInputs.cache
 C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\VietCustum.AssemblyInfo.cs
-C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\VietCustum.csproj.CoreCompileInputs.cache
-C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\VietCustum.dll
 C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\ref\VietCustum.dll
 C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\VietCustum.pdb
 C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\Views\ThoDien.xaml.g.cs
 C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\Views\ThoSuaNha.xaml.g.cs
 C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\Views\ThoVSBN.xaml.g.cs
+C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\Views\ThoVSNLMT.xaml.g.cs
+C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\Views\ThoDoNuocRoRi.xaml.g.cs
+C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\VietCustum.csproj.CoreCompileInputs.cache
+C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\XamlC.stamp

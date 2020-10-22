@@ -32,8 +32,8 @@
     </Shell.Resources>
     
     <TabBar>
-        <ShellContent Title="Tho May Lanh" Icon="tab_about.png" ContentTemplate="{DataTemplate local:ThoVSBN}" />
-        <ShellContent Title="About" Icon="tab_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:ThoSuaMayLanh}" />
+        <ShellContent Title="Tho May Lanh" Icon="tab_about.png" ContentTemplate="{DataTemplate local:ThoDoNuocRoRi}" />
+        <ShellContent Title="About" Icon="tab_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:ThoDienLanh}" />
         <ShellContent Title="Browse" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
     </TabBar>
 
