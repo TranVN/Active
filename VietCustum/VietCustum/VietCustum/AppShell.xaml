@@ -33,7 +33,7 @@
     
     <TabBar>
         <ShellContent Title="Tho May Lanh" Icon="tab_about.png" ContentTemplate="{DataTemplate local:ThoDoNuocRoRi}" />
-        <ShellContent Title="About" Icon="tab_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:ThoDienLanh}" />
+        <ShellContent Title="About" Icon="tab_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:ThoChongTham}" />
         <ShellContent Title="Browse" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
     </TabBar>
 

@@ -33,6 +33,7 @@ item;obj\Debug\90\res\drawable\splash_screen.xml
 item;obj\Debug\90\res\values\styles.xml
 layer-list;obj\Debug\90\res\drawable\splash_screen.xml
 LinearLayout;C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
+LinearLayout;obj\Debug\90\res\layout\layout1.xml
 paths;C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 resources;obj\Debug\90\res\values\colors.xml
@@ -41,6 +42,7 @@ set;C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.A
 set;C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
 set;C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
 set;C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
+Spinner;obj\Debug\90\res\layout\layout1.xml
 style;C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 style;obj\Debug\90\res\values\styles.xml
 translate;C:\Users\thovi\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml

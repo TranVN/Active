@@ -1,208 +1,186 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="VietCustum.Views.ThoDoNuocRoRi">
+             x:Class="VietCustum.Views.ThoDoNuocRoRi"
+             Title="Dò Nước Rò Rỉ">
     <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="5">
-
-
         <ScrollView HorizontalOptions="FillAndExpand">
             <StackLayout>
-                
-                <Label Text="Sửa Chữa - Lắp Đặt Điện Lạnh"
-                   FontSize="Title"
-                   TextColor="red"
-                   FontAttributes="Bold"
-                   HorizontalOptions="CenterAndExpand"
-                   VerticalOptions="Start"
-                />
-                <Label Text="Thợ điện lạnh là một phần trong đội ngũ của Công ty Thợ Việt. Với nhiều Thợ chuyên nhận thực hiện các công việc:"
-                       TextColor="Black"/>
-                <Label Text=" – Lắp đặt,di rời, chuyển vị trí mới cho máy lạnh, tủ lạnh, máy giặt…"/>
-                <Label Text=" – Sửa chữa máy lạnh điều hòa, tủ lạnh, tủ đông, máy giăt…"/>
-                <Label Text=" – Bảo trì, vệ sinh điều hoà không khí, vệ sinh máy giặt,…"/>
-                <Label Text="Dịch vụ điện lạnh Thợ Việt rất mong được phục vụ quý khách hàng, Thợ điện lạnh chuyên nhận sửa chữa, vệ sinh các sản phẩm liên quan tới điện lạnh như:"
-                       FontAttributes="Italic" TextColor="Black"
-                       />
-                <Grid HorizontalOptions="Center">
+                <Label Text="Dò Tìm Rò Rỉ Nước"
+                       FontSize="Title"
+                       TextColor="red"
+                       FontAttributes="Bold"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+                <Label Text="   Thợ Việt chuyên nhận dò tìm rò rỉ nước âm, kiểm tra đường ống nước bị bể ngầm và sửa chữa đường ống nước bể(vỡ) ngầm gây thất thoát nước cho hộ gia đình Tại Tp Hồ Chí Minh, Bình Dương, Đồng Nai."/>
+                <Label Text="   Dò tìm rò rỉ nước cho tòa nhà khu công nghiệp tại các tỉnh Tiền Giang, Bến Tre, Vũng Tàu, Long An, Tây Ninh, Lâm Đồng, Bình Dương, Đồng Nai, ..."/>
+                <Grid HorizontalOptions="Center" VerticalOptions="Center">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height = "*"/>
+                        <RowDefinition Height = "auto"/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="auto"/>
-                        <ColumnDefinition Width="auto"/>
-                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <Image Grid.Column="0" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_Ve-sinh-may-lanh-1.jpg"/>
-                    <Image Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-sua-tu-lanh-11-1.jpg"/>
-                    <Image Grid.Column="2" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-sua-may-giat-2.jpg"/>
+                    <Image Grid.Column="0" Source="https://thoviet.com.vn/wp-content/uploads/2020/06/do-tim-ro-ri-nuoc.jpg"/>
+                    <Image Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_Do-tim-ro-ri-that-thoat-nuoc-4.jpg"/>
                 </Grid>
-                <!--Tho lap may lanh-->
+                <Label Text="   Với trang bị máy móc hiện đại. Thợ dò tìm nước rò rỉ của Thợ Việt nhận dò tìm nước thất thoát ở những vị trí khó nhất. Mà các đơn vị khác có thể không làm được."/>
+                <Label Text="   + Nhận dò tìm cho các tòa nhà, trường học, nhà máy, khu công nghiệp nội và ngoại thành TP Hồ Chí Minh."/>
+                <Label Text="   + Xử lý các đường ống nước lớn bị rò rỉ nhanh chóng. Tiết kiệm thời gian và tiền bạc cho Khách Hàng."/>
 
-                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
-                    <StackLayout>
-                        <Label Text="Thợ Tháo Lắp Đặt Máy Lạnh"
-                       FontSize="Medium"
-                       TextColor="Black"
-                       HorizontalOptions="CenterAndExpand"
-                       HorizontalTextAlignment="Center"
-                       />
-                        <Label Text="– Thợ Việt nhận tháo, lắp mới, di dời máy cũ ở mọi địa thế. Lắp đặt máy lạnh với những dụng cụ chuyên dùng:"/>
-                        <Label Text="   + Khoan bê tông rút lõi. Ưu điểm khi khoan xuyên tường, khoan đến đâu rút lõi bê tông đến đó, không phải đục tường như phương pháp truyền thống. Tính thẩm mỹ cao. Đạt yêu cầu về kỹ thuật."/>
-                        <Label Text="   + Súng bắn vít, xoay Bulông – Nhanh chóng trong thi công. Tiết kiệm thời gian cho khách hàng."/>
-                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-lap-dat-thao-rap-may-lanh_tho-viet-1.jpg" 
-                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200"/>
-                    </StackLayout>
-                </Frame>
-                <!--ket thuc tho lap may lanh-->
-                <!--Tho sua chua may lanh-->
+                <!--Nguyen nhan gay ro ri-->
                 <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
                     <StackLayout >
-                        <Label Text="Thợ Sửa Chữa Máy Lạnh"
-                       FontSize="Medium"
-                       TextColor="Black"
-                       HorizontalOptions="CenterAndExpand"
-                       HorizontalTextAlignment="Start"
-                       />
-                        <Label Text="Thợ Việt chuyên sửa chữa các trường hợp sau:"
-                           TextColor="Black"/>
-                        <Label Text=" – Sửa máy lạnh không chạy, không điều khiển được Remote để mở dàn lạnh"/>
-                        <Label Text=" – Súng bắn vít, xoay Bulông – Nhanh chóng trong thi công. Tiết kiệm thời gian cho khách hàng."/>
-                        <Label Text=" – Sửa máylạnh bị hỏng Block, thay bock mới chính hãng 100%."/>
-                        <Label Text=" – Khắc phục hiện tượng xì gas dàn nóng hoặc dàn lạnh, thay đường ống máy lạnh."/>
-                        <Label Text=" – Sửa máy lạnh chạy khoảng 30 phút thì ngưng."/>
-                        <Label Text=" – Bơm gas mới R22, R410 cho máy lạnh."/>
-                        <Label Text=" – Sửa máy lạnh không lạnh, hết gas."/>
-                        <Label Text=" – Khách hàng gọi đến công ty chúng tôi báo máy lạnh bị sự cố hư hỏng."/>
-                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_Tho-sua-may-lanh.jpg" 
-                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200"/>
+                        <Label Text="Nguyên nhân dẫn tới rò rỉ nước"
+                               FontSize="Medium"
+                               FontAttributes="Bold"
+                               HorizontalOptions="FillAndExpand"
+                               HorizontalTextAlignment="Start"/>
+                        <Label Text="+ Khi mua nhà xây trọn gói thì đa số chủ đầu tư sẽ chọn những thiết bị kém chất lượng. Để tiết kiệm chi phí dẫn tới sử dụng được thời gian thì bị vỡ, bục."/>
+                        <Label Text="+ Với đường ống nước đi âm nền thì việc nền nhà bị sụt lún cũng sẽ làm cho ống nước bị nứt, gãy."/>
+                        <Label Text="+ Không có kế hoạch bảo dưỡng hoặc nâng cấp đúng thời gian. Cái gì cũng có tuổi thọ nhất định, ống nước cũng vậy. Sẽ bị bào mòn theo thời gian cộng với áp lực nước rất mạnh rất dễ dẫn đến bục gãy."/>
                     </StackLayout>
                 </Frame>
-                <!--ket thuc tho sua chua may lanh-->
-                <!--tho ve sinh may lanh-->
+                <!--ket thuc Nguyen nhan gay ro ri-->
+                <!--Dau hieu ro ri nuoc-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout >
+                        <Label Text="Dấu hiệu cho thấy hiện tượng rò rỉ nước"
+                               FontSize="Medium"
+                               FontAttributes="Bold"
+                               HorizontalOptions="FillAndExpand"
+                               HorizontalTextAlignment="Start"/>
+                        <Label Text="+ Hóa đơn tiền điện nước tăng đột ngột, mặc dù nhu cầu sử dụng không nhiều."/>
+                        <Label Text="+ Đồng hồ nước vẫn quay khi tất cả thiết bị xã nước đều bị khóa."/>
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/06/dhnuoc.jpg" HeightRequest="200" WidthRequest="500"/>
+                        <Label Text="+ Máy bơm hoạt động liên tục."/>
+                        <Label Text="+ Có hiện tượng mọc rêu tại những đường ống nước đi qua..."/>
+                        <Label Text="+ Bồn chứa cạn nước vào buổi sáng, mặc dù không sử dụng vào tối hôm trước."/>
+                        <Label Text="+ Áp lực nước yếu, ngay cả trong những thời gian dùng nước ít."/>
+                        <Label Text="+ Hầu hết các hệ thống đường ống nước đều được thiết kế âm."/>
+                        <Label Text="Do đó khi xảy ra hiện tượng rò rỉ nước thì rất khó khăn trong việc xác định vị trí rò rỉ. Vì vậy, bạn cần tìm đến dịch vụ dò tìm rò rỉ nước với kinh nghiệm cùng máy móc đầy đủ để khắc phục"/>
+
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc dau hieu ro ri nuoc-->
+                <!--bang gia do ro ri nuoc-->
                 <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
                     <StackLayout>
-                        <Label Text="Thợ Vệ Sinh Máy Lạnh"
-                       FontSize="Medium"
-                       TextColor="Black"
-                       HorizontalOptions="CenterAndExpand"
-                       HorizontalTextAlignment="Start"
-                       />
-                        <Label Text="Công việc vệ sinh – bảo trì trọn gói bao gồm:"
-                           TextColor="Black"/>
-                        <Label Text="– Xịt rửa dàn nóng lạnh, kiểm tra máy lạnh, kiểm tra gas, châm gas thêm miễn phí (Gas R22 Ấn Độ)."/>
-                        <Label Text="– Bảo hành máy trong 01 tháng nếu máy bị chảy nước, thiếu gas do quá trình kiểm tra."/>
-                        <Label Text="– Vệ sinh sạch sẽ, gọn gàng, trách nhiệm, nhiệt tình, uy tín."/>
-                        <Grid HorizontalOptions="Center">
+                        <Label Text="Bảng giá tham khảo cho dịch vụ dò tìm rò rỉ nước: "
+                               FontSize="Medium"
+                               FontAttributes="Bold"
+                               HorizontalOptions="FillAndExpand"
+                               HorizontalTextAlignment="Start"/>
+                        <!--do nuoc ro ri 1-->
+                        <Frame BackgroundColor="#2b5896" BorderColor="Silver" CornerRadius="5" Padding="2" Margin="2">
+                            <Label Text="Dò nước dò rỉ 1" HorizontalTextAlignment="Center" TextColor="White" FontSize="Medium"/>
+                        </Frame>
+                        <Frame CornerRadius="5" BorderColor="#2b5896">
+                            <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceBetween" >
+                                <Label  Text="150,000 đ - 350,000 đ" FontSize="Medium" FontAttributes="Bold"/>
+                                <Label  Text="Sửa ống nước nổi rò rỉ"/>
+                                <Label  Text="Bồn cầu rò rỉ nước"/>
+                                <Label  Text="Vòi nước bị rò rỉ"/>
+                                <Label  Text="Ống nước bể thấy chỗ"/>
+                                <Label  Text="Ghi chú: Không cần sử dụng máy dò tìm chuyên dụng" HorizontalTextAlignment="Center" FontAttributes="Italic"/>
+                            </FlexLayout>
+                        </Frame>
+                        <!--ket thuc do nuoc ro ri 1-->
+                        <!--do nuoc ro ri 2-->
+                        <Frame BackgroundColor="#2b5896" BorderColor="Silver" CornerRadius="5" Padding="2" Margin="2">
+                            <Label Text="Dò nước dò rỉ 2" HorizontalTextAlignment="Center" TextColor="White" FontSize="Medium"/>
+                        </Frame>
+                        <Frame CornerRadius="5" BorderColor="#2b5896">
+                            <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceBetween" >
+                                <Label  Text="800,000 đ - 1,200,000 đ" FontSize="Medium" FontAttributes="Bold"/>
+                                <Label  HorizontalTextAlignment="Center" Padding="10,5" Text="Dò tìm đường ống nước trong gia đình bị bể ngầm không thấy vị trí bể, sử dụng máy dò chuyên dụng có thể dò được ống nước sâu hơn 2 mét. Dưới các lớp bê tông, đường nhựa, đất sét...."/>
+                            </FlexLayout>
+                        </Frame>
+                        <!--ket thuc do nuoc ro ri 2-->
+                        <!--do nuoc ro ri 2-->
+                        <Frame BackgroundColor="#2b5896" BorderColor="Silver" CornerRadius="5" Padding="2" Margin="2">
+                            <Label Text="Dò nước dò rỉ 3" HorizontalTextAlignment="Center" TextColor="White" FontSize="Medium"/>
+                        </Frame>
+                        <Frame CornerRadius="5" BorderColor="#2b5896">
+                            <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceBetween" >
+                                <Label  Text="Khảo sát báo giá" FontSize="Medium" FontAttributes="Bold"/>
+                                <Label HorizontalTextAlignment="Center" Padding="10,5" Text="Đối với công ty, nhà máy, khu dân cư, tòa nhà, khu công nghiệp... Thợ sẽ liên hệ, tiến hành khảo sát báo giá miễn phí! Lên kế hoạch, nhanh chóng thực hiện theo đúng kế hoạch đã thống nhất giữa 2 bên."/>
+                            </FlexLayout>
+                        <!--ket thuc do nuoc ro ri 3-->
+                        </Frame>
+                    </StackLayout>
+                </Frame>
+                <!--ket thuc bang gia do ro ri nuoc-->
+                <!--Thiet bi do nuoc-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        <Label Text="Một số thiết bị dò tìm rò rỉ nước phổ biến hiện nay"
+                               FontSize="Medium"
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               HorizontalOptions="CenterAndExpand"
+                               HorizontalTextAlignment="Start"/>
+                        <!--may do nuoc ro ri sewerin-->
+                        <Label Text="   SEWERIN: Một trong những thiết bị được nhập khẩu trực tiếp từ Đức. Có khả năng dò tìm được vị trí ống nước bể ngầm độ sâu từ 2 đến 3 m. Kết hợp với các thiết bị trong cùng bộ công cụ thì dòng máy SEWERIN là một đối thủ nặng ký trong lĩnh vực dò tìm nước âm rò rỉ."/>
+                        <Grid HorizontalOptions="Center" VerticalOptions="Center">
                             <Grid.RowDefinitions>
-                                <RowDefinition Height = "*"/>
+                                <RowDefinition Height = "auto"/>
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="auto"/>
-                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                            <Image Grid.Column="0" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_Tho-ve-sinh-rua-may-lanh-quan-1-2-3-4-5-6-7-10.jpg"/>
-                            <Image Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_Tho-ve-sinh-rua-may-lanh-quan-1-2-3-4-5-6-7-8.jpg"/>
-
+                            <Image Grid.Column="0" Source="https://thoviet.com.vn/wp-content/uploads/2019/07/2_abb_stethophon_04_funk_mit_zubehoer_06.jpg"/>
+                            <Image Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2019/07/3_abb_aquaphon_koffer_sk4.jpg"/>
                         </Grid>
-                    </StackLayout>
-                </Frame>
-                <!--ket thuc tho ve sinh may lanh-->
-                <!--Tho ve sinh may giat-->
-                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
-                    <StackLayout>
-                        <Label Text="Thợ Vệ Sinh Máy Giặt"
-                       FontSize="Medium"
-                       TextColor="Black"
-                       HorizontalOptions="CenterAndExpand"
-                       HorizontalTextAlignment="Start"
-                       />
-
-                        <Label Text=" – Nhận vệ sinh các loại máy giặt lồng ngang( máy giặt cửa trước), máy giặt lồng đứng( máy giặt cửa trên)."/>
-                        <Label Text=" – Khi vệ sinh máy giặt bằng dịch vụ của Thợ Việt máy giặt thực sự sạch vì chúng tôi tháo lồng giặt ra vệ sinh bằng tia nước áp xuất cao. "/>
-                        <Label Text=" – Kiểm tra kỹ lưỡng các linh kiện chi tiết máy trước và sau khi vệ sinh."/>
-                        <Label Text=" – An toàn – tiết kiệm cho Bạn và Gia đình."/>
-
-                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-sua-may-giat-tai-nha-tphcm.jpg" 
-                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200"/>
-                    </StackLayout>
-                </Frame>
-                <!--ket thuc tho ve sinh may giat-->
-                <!--Tho sua chua may giat-->
-                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
-                    <StackLayout>
-                        <Label Text="Thợ Sửa Chữa Máy Giặt"
-                       FontSize="Medium"
-                       TextColor="Black"
-                       HorizontalOptions="CenterAndExpand"
-                       HorizontalTextAlignment="Start"
-                       />
-                        <Label Text="Thợ Việt chuyên sửa chữa các trường hợp sau:"
-                           TextColor="Black"/>
-                        <Label Text=" – Để thuận tiện cho việc sửa máy giặt và tiết kiệm thời gian đi lại của khách hàng."/>
-                        <Label Text=" – Công ty TNHH dịch vụ kỹ thuật Thợ Việt mở ra dịch vụ sửa máy giặt tại nhà."/>
-                        <Label Text=" – Bất kì trường hợp nào liên quan tới máy giặt dù là lớn nhỏ đều được chúng tôi khắc phục một cách nhanh chóng nhất."/>
-                        <Label Text=" – Quý khách sẽ hài lòng với dịch vụ sửa máy giặt của chúng tôi."/>
-                        <Label Text=" – Hoàn toàn có thể yên tâm về thời gian cũng như chất lượng."/>
-                        <Label Text=" Vì chúng tôi có mặt trên khắp địa bàn TPHCM nên sẽ có mặt nhanh chóng khi nhận được thông tin khách hàng."
-                           FontAttributes="Italic"
-                           />
-
-                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-ve-sinh-may-giat.jpg" 
-                           HorizontalOptions="Center" WidthRequest="200" HeightRequest="200"/>
-                    </StackLayout>
-                </Frame>
-                <!--ket thuc tho sua chua may giat-->
-                <!--Tho sua chua tu lanh-->
-                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
-                    <StackLayout>
-                        <Label Text="Thợ Sửa Chữa Tủ Lạnh"
-                       FontSize="Medium"
-                       TextColor="Black"
-                       HorizontalOptions="CenterAndExpand"
-                       HorizontalTextAlignment="Start"
-                       />
-
-                        <Label Text=" – Tủ lạnh giúp bạn bảo quản thực phẩm được lâu hơn."/>
-                        <Label Text=" – Chính vì sự quan trọng nên khi tủ lạnh bị hỏng. Bạn cần phải tìm phương pháp khắc phục."/>
-                        <Label Text=" – Phương pháp nhanh nhất đó là gọi ngay cho dịch vụ sửa chữa tủ lạnh."/>
-                        <Label Text=" – Công ty TNHH dịch vụ kỹ thuật Thợ Việt chuyên sửa chữa tủ lạnh với các lỗi hư hỏng dù là nhỏ nhất."/>
-                        <Label Text=" – Một số lỗi thường gặp ở tủ lạnh – tủ đông:"
-                           FontAttributes="Bold"
-                           />
-                        <Label Text="   + Thời gian làm lạnh kéo dài."/>
-                        <Label Text="   + Đèn sáng nhưng tủ lạnh không chạy."/>
-                        <Label Text="   + Tủ lạnh phát ra tiếng ồn lớn."/>
-                        <Label Text="   + Có tiếng gõ nhẹ bên trong block."/>
-                        <Label Text="   + Có hiện tượng đọng sương bên ngoài."/>
-
-                        <Grid HorizontalOptions="Center">
+                        <!--may do nuoc ro ri Gen Ear-->
+                        <Label Text="   Máy dò nước Gen Ear:  xuất sứ từ Mỹ.  Sử dụng cảm biến mặt đất băng tần khá lớn. Độ nhạy: 1,00V / g ở 400 Hz (Tối đa)."/>
+                        <Grid HorizontalOptions="Center" VerticalOptions="Center">
                             <Grid.RowDefinitions>
-                                <RowDefinition Height = "*"/>
+                                <RowDefinition Height = "auto"/>
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="auto"/>
-                                <ColumnDefinition Width="auto"/>
-
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                            <Image Grid.Column="0" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-sua-tu-lanh-tu-dong-tai-nha-6.jpg"/>
-                            <Image Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2019/10/fix_tho-sua-tu-lanh-11-1.jpg"/>
-
+                            <Image Grid.Column="0" Source="https://thoviet.com.vn/wp-content/uploads/2019/07/t%E1%BA%A3i-xu%E1%BB%91ng-2.jpg"/>
+                            <Image Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2019/07/images.jpg"/>
                         </Grid>
+                        <!--may do nuoc ro ri hydro lux-->
+                        <Label Text="   Hydro Lux: là máy dò tìm chuyên dụng dành cho các đường ống có dộ sâu lớn, qua nhiều vật liệu cứng như nền xi măng, đường nhựa, bê tông... sửa dụng công nghệ Xem và nghe rò rỉ với công nghệ DSA với chất lượng âm thanh cao."/>
+                        <Grid HorizontalOptions="Center" VerticalOptions="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height = "auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Source="https://thoviet.com.vn/wp-content/uploads/2019/07/IMG-3837-zoom.jpg"/>
+                            <Image Grid.Column="1" Source="https://thoviet.com.vn/wp-content/uploads/2019/07/s-l300-1.jpg"/>
+                        </Grid>
+                        <Label Text="   Trên đây là một số loại máy cơ bản có thể dùng được. Để thực hiện việc dò tìm rò rỉ ống nước. Một số thiết bị dò tìm hiện đại đang có mặt trên thị trường."/>
+                        <Label FontAttributes="Italic" Text="   Khi có nhu cầu dò tìm rò rỉ nước, hãy liên hệ cho Công Ty Thợ Việt để được hỗ trợ 1 cách nhanh chóng. Rất hân hạnh được phục vụ khách hàng."/>
                     </StackLayout>
                 </Frame>
-                <!--ket thuc tho sua chua tu lanh-->
-                <Label Text="Công ty TNHH Dịch vụ kỹ thuật Thợ Việt – Thợ điện lạnh:"
-                       TextColor="Black"
-                       FontSize="Medium"
-                       />
-                <Label Text=" – Với đội ngũ kỹ thuật viên có trình độ, tận tình, trang bị đầy đủ công cụ hiện đại đảm bảo cho quý khách hàng được phục vụ nhanh chóng, chất lượng…"/>
-                <Label Text=" – Tất cả các thiết bị lắp đặt, sửa chữa sẽ được bảo hành dài hạn"/>
-                <Label Text=" – Mạng lưới phục vụ rộng khắp thành phố Hồ Chí Minh."/>
-                <Label Text=" Thợ Việt với đội ngũ thợ điện lạnh lành nghề, uy tín, chất lượng, phục vụ nhiệt tình chu đáo, giá cả phải chăng."
-                       TextColor="Black"
-                       FontAttributes="Italic"
-                       
-                       />
+                <!--ket thuc thiet bi do nuoc-->
+                <Frame BackgroundColor="white" BorderColor="Silver" CornerRadius="5" HasShadow="True" Padding="5">
+                    <StackLayout>
+                        
+                        <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceBetween">
+                            <Label Text="Phương trâm của Công ty Thợ Việt" FontAttributes="Bold"/>
+                            <Label Text="Nhiệt tình – Chất lượng – Uy tín" FontAttributes="Bold"/>
+                            <Label Text="Gọn gàng – Sạch sẽ – Giá cả hợp lý" FontAttributes="Bold"/>
+                            <Label Text="Chăm sóc ngôi nhà yêu thương" FontAttributes="Italic"/>
+                            <Label Text="1 lần gọi cho tất cả các dịch vụ gia đình" FontAttributes="Italic"/>
+                            <Label Text="THỢ VIỆT – TỰ HÀO NGƯỜI THỢ VIỆT NAM" FontAttributes="Bold" TextColor="#0477db"/>
+                            <Label Text="Hotline: 0903 532 938 Tư vấn 24/7"/>
+                        </FlexLayout>
+
+                    </StackLayout>
+                </Frame>
             </StackLayout>
         </ScrollView>
     </StackLayout>
