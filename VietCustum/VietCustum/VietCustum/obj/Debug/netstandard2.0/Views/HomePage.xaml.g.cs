@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("VietCustum.AppShell.xaml", "AppShell.xaml", typeof(global::VietCustum.AppShell))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("VietCustum.Views.HomePage.xaml", "Views/HomePage.xaml", typeof(global::VietCustum.Views.HomePage))]
 
-namespace VietCustum {
+namespace VietCustum.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("AppShell.xaml")]
-    public partial class AppShell : global::Xamarin.Forms.Shell {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\HomePage.xaml")]
+    public partial class HomePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AppShell));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HomePage));
         }
     }
 }
