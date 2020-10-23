@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VietCustum.Views.FabIcon"
+             xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             >
+        <StackLayout>
+            <!--noi dung-->
+            <CarouselView>
+                <CarouselView.EmptyView>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <ScrollView Grid.Row="1">
+                            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                                <Label Text="Start developing now" FontSize="Title"/>
+                                <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="0,0,0,0"/>
+                                <Label FontSize="16" Padding="0,24,0,0">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <FormattedString.Spans>
+                                                <Span Text="Learn more at "/>
+                                                <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                                            </FormattedString.Spans>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                            </StackLayout>
+                        </ScrollView>
+                    </Grid>
+                </CarouselView.EmptyView>
+            </CarouselView>
+            <!--ket thuc noi dung-->
+            <!-- Fabcon-->
+            <pv:PancakeView HorizontalOptions="End" VerticalOptions="End" Margin="10" CornerRadius="50" Padding="18">
+                <!--su dung thu vien pancakeview-->
+                <pv:PancakeView.BackgroundGradientStops>
+                    <pv:GradientStopCollection>
+                        <pv:GradientStop Color="#16c60c" Offset="0"/>
+                        <pv:GradientStop Color="#16c60c" Offset="1"/>
+                    </pv:GradientStopCollection>
+                </pv:PancakeView.BackgroundGradientStops>
+                <Expander  HorizontalOptions="Start" VerticalOptions="End" >
+                    <Expander.Header Margin="1">
+                        <ImageButton Source="icon_call.png" BackgroundColor="#16c60c" WidthRequest="30" HeightRequest="30" Clicked="ButtonFabcon_Clicked"/>
+                    </Expander.Header>
+                    <!--<StackLayout Spacing="20" Margin="1">
+                    <ImageButton Source="xamarin_logo.png" WidthRequest="30" HeightRequest="30" Rotation="45" BackgroundColor="Transparent" />
+                </StackLayout>-->
+                </Expander>
+            </pv:PancakeView>
+            <!--ket thuc fabcon-->
+        </StackLayout>
+    </ContentPage>

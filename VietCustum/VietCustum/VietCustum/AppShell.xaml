@@ -24,9 +24,8 @@
                 <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
                 <Setter Property="Shell.TabBarTitleColor" Value="White"/>
             </Style>
-            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
-            <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
-
+            
+    
             <!--
             Default Styles for all Flyout Items
             https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#flyoutitem-and-menuitem-style-classes
@@ -54,7 +53,7 @@
                     </VisualStateGroupList>
                 </Setter>
             </Style>
-
+           
             <!--
             Custom Style you can apply to any Flyout Item
             -->
@@ -73,42 +72,15 @@
             </Style>
         </ResourceDictionary>
     </Shell.Resources>
-    <!-- 
-        When the Flyout is visible this defines the content to display in the flyout.
-        FlyoutDisplayOptions="AsMultipleItems" will create a separate flyout item for each child element    
-        https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
-    -->
-    <Shell.FlyoutHeaderTemplate>
-        <DataTemplate>
-            <Grid BackgroundColor="Wheat"
-              HeightRequest="200">
-                <Image Aspect="AspectFill"
-                   Source="logo400.jpg"
-                  />
-                
-            </Grid>
-        </DataTemplate>
-    </Shell.FlyoutHeaderTemplate>
     
-        <ShellContent Title="Home"
-                      Icon="home.png"
-                      ContentTemplate="{DataTemplate local:HomePage}" />
-        <ShellContent Title="Bears"
-                      Icon="home.png"
-                      ContentTemplate="{DataTemplate local:ThoChongTham}" />
-    
-
-    <ShellContent Title="About"
-                  Icon="info.png"
-                  ContentTemplate="{DataTemplate local:AboutPage}" />
     
     <Shell.ItemTemplate>
         <DataTemplate>
             <ContentView>
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="0.2*" />
-                        <ColumnDefinition Width="0.8*" />
+                        <ColumnDefinition Width="0.1*" />
+                        <ColumnDefinition Width="0.9*" />
                     </Grid.ColumnDefinitions>
                     <Image Source="{Binding FlyoutIcon}"
                        Margin="5"
@@ -121,6 +93,34 @@
             </ContentView>
         </DataTemplate>
     </Shell.ItemTemplate>
+    <!-- 
+        When the Flyout is visible this defines the content to display in the flyout.
+        FlyoutDisplayOptions="AsMultipleItems" will create a separate flyout item for each child element    
+        https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
+    -->
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="White"
+              HeightRequest="180">
+                <Image Aspect="AspectFit"
+                   Source="logo400.jpg"
+                       Opacity="0.8"
+                  />
+                
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    
+    <ShellContent Title="Home"   Icon="home.png"  ContentTemplate="{DataTemplate local:HomePage}" />
+    <ShellContent Title="Bears"    Icon="home.png"  Style="" ContentTemplate="{DataTemplate local:ThoChongTham}" />
+    
+    <ShellContent Title="About"
+                  Icon="info.png"
+                  ContentTemplate="{DataTemplate local:AboutPage}" />
+
+    <MenuItem Text="Random"
+                  IconImageSource="random.png"
+                  Command="{Binding RandomPageCommand}" />
 
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
