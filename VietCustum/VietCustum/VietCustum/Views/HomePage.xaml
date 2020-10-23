@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VietCustum.Views.HomePage"
+             Title="Trang Chủ"
+             NavigationPage.HasNavigationBar="False">
+    <!--NavigationPage.HasNavigationBar="False" xóa toolbar page-->
+    <StackLayout>
+        <StackLayout>
+            <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/01/congtytv-e1560306790350.jpg" 
+               Aspect="Fill" 
+               HeightRequest="210" 
+               VerticalOptions="StartAndExpand"/>
+        </StackLayout>
+        <!--khang dinh dich vu-->
+        <StackLayout>
+            <Frame BorderColor="Silver" CornerRadius="5" Margin="20,-40,20,5" Padding="0,12">
+                <Grid HorizontalOptions="CenterAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Grid.Column="0" HorizontalOptions="Center" >
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/premium-quality.png"/>
+                        <Label Text="CHẤT LƯỢNG" HorizontalTextAlignment="Center" FontSize="12"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" HorizontalOptions="Center" Margin="2">
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/reputation.png" />
+                        <Label Text="UY TÍN" HorizontalTextAlignment="Center"  FontSize="12"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="2" HorizontalOptions="Center" >
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/efficiency.png" />
+                        <Label Text="HIỆU QUẢ" HorizontalTextAlignment="Center" FontSize="12"/>
+                    </StackLayout>
+
+                </Grid>
+            </Frame>
+        </StackLayout>
+        <StackLayout>
+            <Frame BorderColor="silver" HorizontalOptions="Center">
+                <Grid HorizontalOptions="CenterAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Frame Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" >
+                        <!--<ImageButton Source="home.png" Clicked=""
+                            
+                        </ImageButton>--> 
+                        <!--<Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/premium-quality.png"/>
+                        <Label Text="CHẤT LƯỢNG" HorizontalTextAlignment="Center" FontSize="12"/>-->
+                    </Frame>
+                    <Frame Grid.Column="1" HorizontalOptions="Center" Margin="2">
+                        <!--<Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/reputation.png" />
+                        <Label Text="UY TÍN" HorizontalTextAlignment="Center"  FontSize="12"/>-->
+                    </Frame>
+                    <Frame Grid.Column="2" HorizontalOptions="Center" >
+                        <!--<Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/efficiency.png" />
+                        <Label Text="HIỆU QUẢ" HorizontalTextAlignment="Center" FontSize="12"/>-->
+                    </Frame>
+
+                </Grid>
+            </Frame>
+        </StackLayout>
+        <!--Ket thuc-->
+    </StackLayout>
+</ContentPage>

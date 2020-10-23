@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="Vệ Sinh Năng Lượng Mặt Trời"
-             x:Class="VietCustum.Views.ThoVSNLMT">
+             x:Class="VietCustum.Views.ThoVSNLMT"
+             NavigationPage.HasNavigationBar="False">
     <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="5">
         <ScrollView HorizontalOptions="FillAndExpand">
             <FlexLayout JustifyContent="SpaceBetween" Direction="Column">

@@ -2,7 +2,8 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:VietCustum.Views"
        Title="VietCustum"
-       x:Class="VietCustum.AppShell" >
+       x:Class="VietCustum.AppShell"
+       NavigationPage.HasNavigationBar="False">
 
     <!--
         The overall app visual hierarchy is defined here, along with navigation.
@@ -13,7 +14,7 @@
     <TabbedPage.Children>
         <NavigationPage x:Name="Friends" Title="Friends" Icon="home.png">
             <x:Arguments>
-                <local:ThoChongTham />
+                <local:HomePage />
             </x:Arguments>
         </NavigationPage >
         <NavigationPage  x:Name="Snap" Title="Snap" Icon="home.png">

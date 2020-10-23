@@ -5,7 +5,7 @@
              Title="{Binding Title}"
              xmlns:local="clr-namespace:VietCustum.ViewModels"  
              xmlns:model="clr-namespace:VietCustum.Models"  
-             x:Name="BrowseItemsPage">
+             x:Name="BrowseItemsPage" NavigationPage.HasNavigationBar="False">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Add" Command="{Binding AddItemCommand}" />

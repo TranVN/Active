@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                Title="Thợ Điện Nước"
-             x:Class="VietCustum.Views.ThoDienNuoc">
+             x:Class="VietCustum.Views.ThoDienNuoc"
+             NavigationPage.HasNavigationBar="False"
+             >
     <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="5">
 
         <ScrollView HorizontalOptions="FillAndExpand">
