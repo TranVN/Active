@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hbDAg64dQ6oNsgb0hHgU33iv7YCAjShu7kVYtN25fgOfURj1nc6xSHVE8fg2syHeacahVndsUlvykGJzhEpqZw==",
+  "dgSpecHash": "qchrBlTFseuGauoNAFLPsGMLHLQQwsSB89A4DhrI+psO6V9130NW8Y4tf37HrRxEsQCgbdDsPxExnmuZqUYogw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thovi\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.Android\\VietCustum.Android.csproj",
+  "projectFilePath": "C:\\Users\\win10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.Android\\VietCustum.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
