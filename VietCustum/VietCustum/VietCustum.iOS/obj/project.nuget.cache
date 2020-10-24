@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cjfwA8zG6l7lzGWhIXejIz3/mdokaYsQaoPaOpAF3Y6eBYZNROe4KOjK9C6TwHKoFaATNCJep3hMXfeVn3050g==",
+  "dgSpecHash": "ifHdTdUv+/FIK2S3griuxo9iGD7GkJCuB9p90j8L5VIGW0igWZZOMKLrEbxr1Wb+taMZf6WBDm0t/OrxE+eWow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\win10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\VietCustum.iOS.csproj",
+  "projectFilePath": "C:\\Users\\it\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\VietCustum.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\it\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512",
+    "C:\\Users\\it\\.nuget\\packages\\xamarin.forms.pancakeview\\2.1.0.714\\xamarin.forms.pancakeview.2.1.0.714.nupkg.sha512"
   ],
   "logs": []
 }
