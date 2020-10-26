@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\it\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj": {}
+    "C:\\Users\\win10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\it\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj": {
+    "C:\\Users\\win10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\it\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj",
+        "projectUniqueName": "C:\\Users\\win10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj",
         "projectName": "VietCustum",
-        "projectPath": "C:\\Users\\it\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj",
-        "packagesPath": "C:\\Users\\it\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\it\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\obj\\",
+        "projectPath": "C:\\Users\\win10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj",
+        "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\win10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\it\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.6, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

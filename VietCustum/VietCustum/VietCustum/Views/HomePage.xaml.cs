@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Rg.Plugins.Popup.Extensions;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,9 +39,10 @@ namespace VietCustum.Views
         {
             await Navigation.PushAsync(new ThoMoc());
         }
-        public async void ChangePage_Khac(object sender, System.EventArgs e)
+        public void ChangePage_Khac(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new ThoDoNuocRoRi());
+            var modalPage = new DVKhacModalPage();
+            App.Current.MainPage.Navigation.PushPopupAsync(modalPage, true);
         }
     }
 }

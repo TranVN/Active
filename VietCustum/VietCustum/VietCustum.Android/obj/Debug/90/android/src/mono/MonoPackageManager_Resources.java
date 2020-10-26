@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "VietCustum.Android.dll" comes first in this list. */
 		"VietCustum.Android.dll",
 		"FormsViewGroup.dll",
+		"Rg.Plugins.Popup.dll",
 		"VietCustum.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",

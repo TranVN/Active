@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rg:PopupPage  xmlns:rg="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup" 
+               xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VietCustum.Views.DVKhacModalPage">
+    <!--add thu vien rg popuppage-->
+    <Frame CornerRadius="10" Margin="0,300,0,0" >
+        <StackLayout Margin="0" Padding="2" BackgroundColor="White" HeightRequest="1000" WidthRequest="406">
+            <Label Text="Dịch vụ khác" FontAttributes="Bold" FontSize="14"/>
+            <BoxView BackgroundColor="Gray" WidthRequest="50" HeightRequest="2" CornerRadius="50"/>
+            <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="140"/>
+                    <RowDefinition Height="140"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <!--icon dong 0-->
+                <Frame Grid.Column="0" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="False" CornerRadius="5" Margin="6,2,6,-6">
+                    <StackLayout Margin="0" Padding="0" >
+                        <Image Source="icon_tho.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="60" HeightRequest="60"/>
+                        <Label Text="Thợ Điện" HorizontalTextAlignment="Center" FontSize="12" />
+                    </StackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ChangePage_ThoDien"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <Frame Grid.Column="1" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="False" Margin="6,2,6,-6" >
+                    <StackLayout Margin="0" Padding="0" >
+                        <Image Source="icon_tho.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="60" HeightRequest="60"/>
+                        <Label Text="Điện Lạnh" HorizontalTextAlignment="Center" FontSize="12"/>
+                    </StackLayout>
+                    <!--<Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ChangePage_DienLanh"/>
+                    </Frame.GestureRecognizers>-->
+                </Frame>
+                <Frame Grid.Column="2" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="False" Margin="6,2,6,-6" >
+                    <StackLayout Margin="0" Padding="2" >
+                        <Image Source="icon_tho.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="60" HeightRequest="60"/>
+                        <Label Text="Điện Nước" HorizontalTextAlignment="Center" FontSize="12"/>
+                    </StackLayout>
+                    <!--<Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ChangePage_DienNuoc"/>
+                    </Frame.GestureRecognizers>-->
+                </Frame>
+                <!--KEt thuc icon dong 0-->
+                <!--icon dong 1-->
+                <Frame Grid.Column="0" Grid.Row="1" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="False" Margin="6,-6,6,2">
+                    <StackLayout Margin="0" Padding="0" >
+                        <Image Source="icon_tho.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="60" HeightRequest="60"/>
+                        <Label Text="Chống Thấm" HorizontalTextAlignment="Center" FontSize="12"/>
+                    </StackLayout>
+                    <!--<Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ChangePage_ChongTham"/>
+                    </Frame.GestureRecognizers>-->
+                </Frame>
+                <!--<Frame Grid.Column="1" Grid.Row="1" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="False" Margin="6,-6,6,2">
+            <StackLayout Margin="0" Padding="0" >
+                <Image Source="icon_tho.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="60" HeightRequest="60"/>
+                <Label Text="Thợ Mộc" HorizontalTextAlignment="Center" FontSize="10"/>
+            </StackLayout>
+            -->
+                <!--<Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ChangePage_ThoMoc"/>
+                    </Frame.GestureRecognizers>-->
+                <!--
+        </Frame>-->
+                <Frame Grid.Column="1" Grid.Row="1" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="False" Margin="6,-6,6,2" >
+                    <StackLayout Margin="0"  Padding="0" >
+                        <Image Source="ThoKhac.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="60" HeightRequest="60"/>
+                        <Label Text="Khác" HorizontalTextAlignment="Center" FontSize="12"/>
+                    </StackLayout>
+                    <!--<Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ChangePage_Khac"/>
+                    </Frame.GestureRecognizers>-->
+                </Frame>
+                <!--KEt thuc icon dong 1-->
+            </Grid>
+        </StackLayout>
+    </Frame>
+</rg:PopupPage>
