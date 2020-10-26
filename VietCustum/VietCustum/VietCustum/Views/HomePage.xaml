@@ -127,54 +127,6 @@
                     </Grid>
                 </Frame>
             </StackLayout>
-            <StackLayout Margin="14, 2">
-                <Label Text="Tin Hot" FontAttributes="Bold" />
-                <Frame HasShadow="True" BorderColor="Silver" HorizontalOptions="Fill" VerticalOptions="Fill" Padding="6" >
-                    <StackLayout >
-                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/01/congtytv-e1560306790350.jpg" 
-                               Aspect="AspectFill" 
-                               HeightRequest="100" 
-                               WidthRequest="400"
-                               HorizontalOptions="CenterAndExpand" 
-                               VerticalOptions="CenterAndExpand"/>
-                        <Label Text="Giảm 10% tiền công khi hộ gia đình sử dụng dịch vụ sửa điện nước" FontSize="14"/>
-                    </StackLayout>                    
-                </Frame>
-                <Frame HasShadow="True" BorderColor="Silver" HorizontalOptions="Fill" VerticalOptions="Fill"  Padding="6">
-                    <StackLayout>
-                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/01/congtytv-e1560306790350.jpg" 
-                               Aspect="AspectFill" 
-                               HeightRequest="100" 
-                               WidthRequest="400"
-                               HorizontalOptions="CenterAndExpand" 
-                               VerticalOptions="CenterAndExpand"/>
-                        <Label Text="Giảm 10% tiền công khi hộ gia đình sử dụng dịch vụ sửa điện nước" FontSize="14"/>
-                    </StackLayout>
-                </Frame>
-                <Label Text="Thông Tin Khuyến Mãi" FontAttributes="Bold" />
-                <Frame HasShadow="True" BorderColor="Silver" HorizontalOptions="Fill" VerticalOptions="Fill" Padding="6" >
-                    <StackLayout >
-                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/01/congtytv-e1560306790350.jpg" 
-                               Aspect="AspectFill" 
-                               HeightRequest="100" 
-                               WidthRequest="400"
-                               HorizontalOptions="CenterAndExpand" 
-                               VerticalOptions="CenterAndExpand"/>
-                        <Label Text="Giảm 10% tiền công khi hộ gia đình sử dụng dịch vụ sửa điện nước" FontSize="14"/>
-                    </StackLayout>
-                </Frame>
-                <Frame HasShadow="True" BorderColor="Silver" HorizontalOptions="Fill" VerticalOptions="Fill"  Padding="6">
-                    <StackLayout>
-                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/01/congtytv-e1560306790350.jpg" 
-                               Aspect="AspectFill" 
-                               HeightRequest="100" 
-                               WidthRequest="400"
-                               HorizontalOptions="CenterAndExpand" 
-                               VerticalOptions="CenterAndExpand"/>
-                        <Label Text="Giảm 10% tiền công khi hộ gia đình sử dụng dịch vụ sửa điện nước" FontSize="14"/>
-                    </StackLayout>
-                </Frame>
-            </StackLayout>
         </StackLayout>
     </ScrollView>
 </ContentPage>
