@@ -15,7 +15,7 @@
             </StackLayout>
             <!--khang dinh dich vu-->
             <StackLayout>
-                <Frame BorderColor="Silver" CornerRadius="5" Margin="20,-40,20,5" Padding="0,12">
+                <Frame BorderColor="Silver" CornerRadius="5" Margin="14,-40,14,5" Padding="0,12">
                     <Grid HorizontalOptions="CenterAndExpand">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*"/>
@@ -25,16 +25,29 @@
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <StackLayout Grid.Column="0" HorizontalOptions="Center" >
-                            <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/premium-quality.png"/>
-                            <Label Text="CHẤT LƯỢNG" HorizontalTextAlignment="Center" FontSize="12"/>
+                        <StackLayout Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Fill" Padding="16,2">
+                            <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/premium-quality.png" 
+                                   HorizontalOptions="CenterAndExpand" 
+                                   VerticalOptions="CenterAndExpand" 
+                                   WidthRequest="40"
+                                   HeightRequest="40"
+                                   />
+                            <Label Text="CHẤT LƯỢNG" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="12"/>
                         </StackLayout>
-                        <StackLayout Grid.Column="1" HorizontalOptions="Center" Margin="2">
-                            <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/reputation.png" />
+                        <StackLayout Grid.Column="1" HorizontalOptions="Center"  Padding="16,2">
+                            <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/reputation.png" 
+                                   HorizontalOptions="CenterAndExpand" 
+                                   VerticalOptions="CenterAndExpand" 
+                                   WidthRequest="40"
+                                   HeightRequest="40"/>
                             <Label Text="UY TÍN" HorizontalTextAlignment="Center"  FontSize="12"/>
                         </StackLayout>
-                        <StackLayout Grid.Column="2" HorizontalOptions="Center" >
-                            <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/efficiency.png" />
+                        <StackLayout Grid.Column="2" HorizontalOptions="Center" Padding="16,2" >
+                            <Image Source="https://thoviet.com.vn/wp-content/uploads/2020/07/efficiency.png" 
+                                   HorizontalOptions="CenterAndExpand" 
+                                   VerticalOptions="CenterAndExpand" 
+                                   WidthRequest="40"
+                                   HeightRequest="40"/>
                             <Label Text="HIỆU QUẢ" HorizontalTextAlignment="Center" FontSize="12"/>
                         </StackLayout>
 
@@ -42,11 +55,11 @@
                 </Frame>
             </StackLayout>
             <StackLayout>
-                <Frame HorizontalOptions="Center" Margin="14, 2" HasShadow="False" Padding="0">
+                <Frame HorizontalOptions="Center" Margin="14, 2" HasShadow="True" BorderColor="Silver" Padding="0">
                     <Grid HorizontalOptions="CenterAndExpand" Padding="2">
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="128"/>
-                            <RowDefinition Height="128"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
@@ -54,7 +67,7 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <!--icon dong 0-->
-                        <Frame Grid.Column="0" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="True" CornerRadius="5">
+                        <Frame Grid.Column="0" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="False" CornerRadius="5" Margin="6,2,6,-6">
                             <StackLayout Margin="0" Padding="0" >
                                 <Image Source="icon_tho.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="60" HeightRequest="60"/>
                                 <Label Text="Thợ Điện" HorizontalTextAlignment="Center" FontSize="10" />
@@ -63,7 +76,7 @@
                                 <TapGestureRecognizer Tapped="ChangePage_ThoDien"/>
                             </Frame.GestureRecognizers>
                         </Frame>
-                        <Frame Grid.Column="1" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="True" >
+                        <Frame Grid.Column="1" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="False" Margin="6,2,6,-6" >
                             <StackLayout Margin="0" Padding="0" >
                                 <Image Source="icon_tho.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="60" HeightRequest="60"/>
                                 <Label Text="Điện Lạnh" HorizontalTextAlignment="Center" FontSize="10"/>
@@ -72,7 +85,7 @@
                                 <TapGestureRecognizer Tapped="ChangePage_DienLanh"/>
                             </Frame.GestureRecognizers>
                         </Frame>
-                        <Frame Grid.Column="2" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="True" >
+                        <Frame Grid.Column="2" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="False" Margin="6,2,6,-6" >
                             <StackLayout Margin="0" Padding="2" >
                                 <Image Source="icon_tho.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="60" HeightRequest="60"/>
                                 <Label Text="Điện Nước" HorizontalTextAlignment="Center" FontSize="10"/>
@@ -83,7 +96,7 @@
                         </Frame>
                         <!--KEt thuc icon dong 0-->
                         <!--icon dong 1-->
-                        <Frame Grid.Column="0" Grid.Row="1" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="True" >
+                        <Frame Grid.Column="0" Grid.Row="1" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="False" Margin="6,-6,6,2">
                             <StackLayout Margin="0" Padding="0" >
                                 <Image Source="icon_tho.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="60" HeightRequest="60"/>
                                 <Label Text="Chống Thấm" HorizontalTextAlignment="Center" FontSize="10"/>
@@ -92,7 +105,7 @@
                                 <TapGestureRecognizer Tapped="ChangePage_ChongTham"/>
                             </Frame.GestureRecognizers>
                         </Frame>
-                        <Frame Grid.Column="1" Grid.Row="1" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="True" >
+                        <Frame Grid.Column="1" Grid.Row="1" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="False" Margin="6,-6,6,2">
                             <StackLayout Margin="0" Padding="0" >
                                 <Image Source="icon_tho.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="60" HeightRequest="60"/>
                                 <Label Text="Thợ Mộc" HorizontalTextAlignment="Center" FontSize="10"/>
@@ -101,9 +114,9 @@
                                 <TapGestureRecognizer Tapped="ChangePage_ThoMoc"/>
                             </Frame.GestureRecognizers>
                         </Frame>
-                        <Frame Grid.Column="2" Grid.Row="1" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="True" >
+                        <Frame Grid.Column="2" Grid.Row="1" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="False" Margin="6,-6,6,2" >
                             <StackLayout Margin="0"  Padding="0" >
-                                <Image Source="icon_tho.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="60" HeightRequest="60"/>
+                                <Image Source="ThoKhac.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="60" HeightRequest="60"/>
                                 <Label Text="Khác" HorizontalTextAlignment="Center" FontSize="10"/>
                             </StackLayout>
                             <Frame.GestureRecognizers>
@@ -112,6 +125,54 @@
                         </Frame>
                         <!--KEt thuc icon dong 1-->
                     </Grid>
+                </Frame>
+            </StackLayout>
+            <StackLayout Margin="14, 2">
+                <Label Text="Tin Hot" FontAttributes="Bold" />
+                <Frame HasShadow="True" BorderColor="Silver" HorizontalOptions="Fill" VerticalOptions="Fill" Padding="6" >
+                    <StackLayout >
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/01/congtytv-e1560306790350.jpg" 
+                               Aspect="AspectFill" 
+                               HeightRequest="100" 
+                               WidthRequest="400"
+                               HorizontalOptions="CenterAndExpand" 
+                               VerticalOptions="CenterAndExpand"/>
+                        <Label Text="Giảm 10% tiền công khi hộ gia đình sử dụng dịch vụ sửa điện nước" FontSize="14"/>
+                    </StackLayout>
+                </Frame>
+                <Frame HasShadow="True" BorderColor="Silver" HorizontalOptions="Fill" VerticalOptions="Fill"  Padding="6">
+                    <StackLayout>
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/01/congtytv-e1560306790350.jpg" 
+                               Aspect="AspectFill" 
+                               HeightRequest="100" 
+                               WidthRequest="400"
+                               HorizontalOptions="CenterAndExpand" 
+                               VerticalOptions="CenterAndExpand"/>
+                        <Label Text="Giảm 10% tiền công khi hộ gia đình sử dụng dịch vụ sửa điện nước" FontSize="14"/>
+                    </StackLayout>
+                </Frame>
+                <Label Text="Thông Tin Khuyến Mãi" FontAttributes="Bold" />
+                <Frame HasShadow="True" BorderColor="Silver" HorizontalOptions="Fill" VerticalOptions="Fill" Padding="6" >
+                    <StackLayout >
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/01/congtytv-e1560306790350.jpg" 
+                               Aspect="AspectFill" 
+                               HeightRequest="100" 
+                               WidthRequest="400"
+                               HorizontalOptions="CenterAndExpand" 
+                               VerticalOptions="CenterAndExpand"/>
+                        <Label Text="Giảm 10% tiền công khi hộ gia đình sử dụng dịch vụ sửa điện nước" FontSize="14"/>
+                    </StackLayout>
+                </Frame>
+                <Frame HasShadow="True" BorderColor="Silver" HorizontalOptions="Fill" VerticalOptions="Fill"  Padding="6">
+                    <StackLayout>
+                        <Image Source="https://thoviet.com.vn/wp-content/uploads/2019/01/congtytv-e1560306790350.jpg" 
+                               Aspect="AspectFill" 
+                               HeightRequest="100" 
+                               WidthRequest="400"
+                               HorizontalOptions="CenterAndExpand" 
+                               VerticalOptions="CenterAndExpand"/>
+                        <Label Text="Giảm 10% tiền công khi hộ gia đình sử dụng dịch vụ sửa điện nước" FontSize="14"/>
+                    </StackLayout>
                 </Frame>
             </StackLayout>
         </StackLayout>
