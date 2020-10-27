@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "stcSOE3bDA6Cry5nrWPTMdmxl/8tvwRxp4efjZxfgYpH5/t4F5TW85RD6SPlX/Mn2NtjV5l3NYPWYrgwG+y+dA==",
+  "dgSpecHash": "pkjmR3hlkCRigIRXZTf4IZ46+qVYIgHZrsQnin2zlp4mWT8XIOvH+G8pMP/RbYLBG/+TgDQdY8D3XnRU0Mc2vQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\win10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\VietCustum.iOS.csproj",
+  "projectFilePath": "C:\\Users\\win10\\Source\\Repos\\Active\\VietCustum\\VietCustum\\VietCustum.iOS\\VietCustum.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\win10\\.nuget\\packages\\rg.plugins.popup\\2.0.0.6\\rg.plugins.popup.2.0.0.6.nupkg.sha512",
     "C:\\Users\\win10\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",

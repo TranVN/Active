@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MKZTyzqnVgu+sYHC/Wc5u6M7EdgBhuEi6l8/tFJCo25btfhNq9eFBxxF+z8S1b1AGw8pb8wBO29Ki7xw8iHeLA==",
+  "dgSpecHash": "/LqCX9xqIvADA3o4EWHxyKlfV2zVtCCkVxoDVw5xW5S/lX4lv0mZFz/ik9C278zgyEWPzV4XsHEEYN3SOtCY8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\win10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.Android\\VietCustum.Android.csproj",
+  "projectFilePath": "C:\\Users\\win10\\Source\\Repos\\Active\\VietCustum\\VietCustum\\VietCustum.Android\\VietCustum.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\win10\\.nuget\\packages\\rg.plugins.popup\\2.0.0.6\\rg.plugins.popup.2.0.0.6.nupkg.sha512",
     "C:\\Users\\win10\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",

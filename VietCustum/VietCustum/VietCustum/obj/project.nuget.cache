@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZRZG0Is5DKALHRO3Wd6gsmn9FXSKd+n9FJcMVaREN2/hJheZhIFVGY7CXm7OQ5PEhhauTqqtsluL0NYk43bFAg==",
+  "dgSpecHash": "L9H/HSBHtAzmgcbc0DwtuoxGd9HUi8AKhVc9vVY/L3cfPqkoqhVO/wFrkrsQKLF76a24pwq/dxS8d/PbArI4Vg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\win10\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj",
+  "projectFilePath": "C:\\Users\\win10\\Source\\Repos\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\win10\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\win10\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

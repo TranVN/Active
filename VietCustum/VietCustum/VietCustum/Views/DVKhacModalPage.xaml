@@ -4,10 +4,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VietCustum.Views.DVKhacModalPage">
     <!--add thu vien rg popuppage-->
-    <Frame CornerRadius="10" Margin="0,300,0,0" >
+    <Frame x:Name="touchOnSwiped" CornerRadius="10" Margin="0,300,0,0" >
+        <!--swiped down-->
+        <Frame.GestureRecognizers>
+            <SwipeGestureRecognizer Direction="Down" Swiped="OnSwiped"/>
+        </Frame.GestureRecognizers>
+        <!--end swiped down-->
         <StackLayout Margin="0" Padding="2" BackgroundColor="White" HeightRequest="1000" WidthRequest="406">
-            <Label Text="Dịch vụ khác" FontAttributes="Bold" FontSize="14"/>
-            <BoxView BackgroundColor="Gray" WidthRequest="50" HeightRequest="2" CornerRadius="50"/>
+            <BoxView WidthRequest="50" HeightRequest="5" Margin="160,2" CornerRadius="50" Color="LightGray"/>
+            <Label Text="Dịch vụ khác" FontAttributes="Bold" FontSize="18"/>
             <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="140"/>

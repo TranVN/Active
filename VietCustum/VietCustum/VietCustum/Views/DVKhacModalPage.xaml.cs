@@ -18,11 +18,20 @@ namespace VietCustum.Views
         {
             InitializeComponent();
             //App.Current.MainPage.Navigation.PopPopupAsync(true);
+            //touchOnSwiped.;
         }
         public async void ChangePage_ThoDien(object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new ThoDien());
             await Navigation.PopPopupAsync(true);
+
+
         }
+            void OnSwiped(object sender, SwipedEventArgs e)
+            {
+                touchOnSwiped.Navigation.PopPopupAsync(true);
+            }
+        
+        
     }
 }
