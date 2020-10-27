@@ -2389,3 +2389,11 @@ C:\Users\win10\Source\Repos\Active\VietCustum\VietCustum\VietCustum.Android\obj\
 C:\Users\win10\Source\Repos\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\win10\Source\Repos\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\win10\Source\Repos\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\res\drawable\thokhac.png
+C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\res\drawable\icon_tho.png
+C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\android\assets\Rg.Plugins.Popup.dll
+C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\android\assets\Rg.Plugins.Popup.pdb
+C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\android\src\crc643dd37f507f3d9710\PopupPageRenderer.java
+C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\android\src\crc64fdbeeba101bd56dc\RgGestureDetectorListener.java
+C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\res\mipmap-anydpi-v26\logo_icon.xml
+C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\res\drawable\logo_icon2.png

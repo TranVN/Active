@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/LqCX9xqIvADA3o4EWHxyKlfV2zVtCCkVxoDVw5xW5S/lX4lv0mZFz/ik9C278zgyEWPzV4XsHEEYN3SOtCY8g==",
+  "dgSpecHash": "PVef/K7q7LDPbcnTR5xgWm30xfeXI0vuOoUTEHYdmb04btg+QrbMeQDg+iVXTtZj+RPbyNsPZ+Us63I/7Xk7xw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\win10\\Source\\Repos\\Active\\VietCustum\\VietCustum\\VietCustum.Android\\VietCustum.Android.csproj",
+  "projectFilePath": "C:\\Users\\it\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.Android\\VietCustum.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\win10\\.nuget\\packages\\rg.plugins.popup\\2.0.0.6\\rg.plugins.popup.2.0.0.6.nupkg.sha512",
-    "C:\\Users\\win10\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\it\\.nuget\\packages\\rg.plugins.popup\\2.0.0.6\\rg.plugins.popup.2.0.0.6.nupkg.sha512",
+    "C:\\Users\\it\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.lifecycle.common\\1.1.1.3\\xamarin.android.arch.lifecycle.common.1.1.1.3.nupkg.sha512",
@@ -45,7 +45,7 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.viewpager\\28.0.0.3\\xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512",
-    "C:\\Users\\win10\\.nuget\\packages\\xamarin.forms.pancakeview\\2.1.0.714\\xamarin.forms.pancakeview.2.1.0.714.nupkg.sha512"
+    "C:\\Users\\it\\.nuget\\packages\\xamarin.forms.pancakeview\\2.1.0.714\\xamarin.forms.pancakeview.2.1.0.714.nupkg.sha512"
   ],
   "logs": []
 }

@@ -2100,24 +2100,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\win10\\.nuget\\packages\\": {},
+    "C:\\Users\\it\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\win10\\Source\\Repos\\Active\\VietCustum\\VietCustum\\VietCustum.Android\\VietCustum.Android.csproj",
+      "projectUniqueName": "C:\\Users\\it\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.Android\\VietCustum.Android.csproj",
       "projectName": "VietCustum.Android",
-      "projectPath": "C:\\Users\\win10\\Source\\Repos\\Active\\VietCustum\\VietCustum\\VietCustum.Android\\VietCustum.Android.csproj",
-      "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\win10\\Source\\Repos\\Active\\VietCustum\\VietCustum\\VietCustum.Android\\obj\\",
+      "projectPath": "C:\\Users\\it\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.Android\\VietCustum.Android.csproj",
+      "packagesPath": "C:\\Users\\it\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\it\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\it\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2131,8 +2131,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\win10\\Source\\Repos\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj": {
-              "projectPath": "C:\\Users\\win10\\Source\\Repos\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj"
+            "C:\\Users\\it\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj": {
+              "projectPath": "C:\\Users\\it\\Source\\Repos\\TranVN\\Active\\VietCustum\\VietCustum\\VietCustum\\VietCustum.csproj"
             }
           }
         }
