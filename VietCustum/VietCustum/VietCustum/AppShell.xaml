@@ -120,7 +120,7 @@
 
     <MenuItem Text="Random"
                   IconImageSource="random.png"
-                  Command="{Binding RandomPageCommand}" />
+                   Clicked="OnMenuItemClicked" />
 
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->

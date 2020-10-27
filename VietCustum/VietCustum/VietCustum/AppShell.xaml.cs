@@ -12,7 +12,8 @@ namespace VietCustum
         public AppShell()
         {
             InitializeComponent();
-           
+            this.BindingContext = new LoginViewModel();
+
         }
         private async void OnMenuItemClicked(object sender, EventArgs e)
         {

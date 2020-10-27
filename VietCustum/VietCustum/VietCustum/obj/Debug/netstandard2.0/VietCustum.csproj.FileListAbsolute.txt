@@ -122,3 +122,4 @@ C:\Users\win10\Source\Repos\Active\VietCustum\VietCustum\VietCustum\obj\Debug\ne
 C:\Users\win10\Source\Repos\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\VietCustum.dll
 C:\Users\win10\Source\Repos\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\ref\VietCustum.dll
 C:\Users\win10\Source\Repos\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\VietCustum.pdb
+C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum\obj\Debug\netstandard2.0\Views\DVKhacModalPage.xaml.g.cs

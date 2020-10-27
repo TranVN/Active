@@ -2397,3 +2397,4 @@ C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\
 C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\android\src\crc64fdbeeba101bd56dc\RgGestureDetectorListener.java
 C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\res\mipmap-anydpi-v26\logo_icon.xml
 C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\res\drawable\logo_icon2.png
+C:\Users\it\Source\Repos\TranVN\Active\VietCustum\VietCustum\VietCustum.Android\obj\Debug\90\Resources\drawable\fabIcon.xaml.g.cs
